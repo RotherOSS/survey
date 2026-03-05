@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
-"POT-Creation-Date: 2020-01-24 14:38+0000\n"
+"POT-Creation-Date: 2024-05-25 16:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,6 +12,10 @@ msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Create New Survey"
+msgstr ""
+
+#. Template: AgentSurveyAdd
+msgid "All fields marked with an asterisk (*) are mandatory."
 msgstr ""
 
 #. Template: AgentSurveyAdd
@@ -652,9 +656,5 @@ msgstr ""
 
 #. SysConfig
 msgid "Zoom into statistics details."
-msgstr ""
-
-#. Template: AgentSurveyAdd
-msgid "All fields marked with an asterisk (*) are mandatory."
 msgstr ""
 
