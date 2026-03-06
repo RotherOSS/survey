@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
-"POT-Creation-Date: 2024-08-02 03:41+0000\n"
+"POT-Creation-Date: 2026-03-06 11:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,10 +12,6 @@ msgstr ""
 
 #. Template: AgentSurveyAdd
 msgid "Create New Survey"
-msgstr ""
-
-#. Template: AgentSurveyAdd
-msgid "All fields marked with an asterisk (*) are mandatory."
 msgstr ""
 
 #. Template: AgentSurveyAdd
