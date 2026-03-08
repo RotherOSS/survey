@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 14:58+0200\n"
-"PO-Revision-Date: 2025-01-13 15:21+0000\n"
-"Last-Translator: Markus Hlinka <mah@rother-oss.com>\n"
+"PO-Revision-Date: 2026-03-08 11:51+0000\n"
+"Last-Translator: Stefan Rother <sr@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/manual-survey/"
 "master/de/>\n"
 "Language: de\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.16\n"
 "Generated-By: Babel 2.4.0\n"
 
 #: ../../content/index.rst:16
@@ -31,7 +31,7 @@ msgstr "Beschreibung"
 
 #: ../../content/index.rst:20
 msgid "A customer survey tool."
-msgstr ""
+msgstr "Ein Tool zur Kundenbefragung."
 
 #: ../../content/index.rst:23
 msgid "System requirements"
@@ -71,37 +71,39 @@ msgstr "Konfigurationsreferenz"
 
 #: ../../content/index.rst:47
 msgid "Core::Event::Survey"
-msgstr ""
+msgstr "Core::Event::Survey"
 
 #: ../../content/index.rst:50
 msgid "Ticket::EventModulePost###99-SurveySendRequest"
-msgstr ""
+msgstr "Ticket::EventModulePost###99-SurveySendRequest"
 
 #: ../../content/index.rst:51
 msgid ""
 "Ticket event module to send automatically survey email requests to "
 "customers if a ticket is closed."
 msgstr ""
+"Ticket-Event-Modul zum automatischen Versenden von Umfrage-E-Mail-Anfragen "
+"an Kunden, wenn ein Ticket geschlossen wird."
 
 #: ../../content/index.rst:54
 msgid "Core::Stats"
-msgstr ""
+msgstr "Core::Stats"
 
 #: ../../content/index.rst:57
 msgid "Stats::DynamicObjectRegistration###SurveyList"
-msgstr ""
+msgstr "Stats::DynamicObjectRegistration###SurveyList"
 
 #: ../../content/index.rst:58
 msgid "Determines if the statistics module may generate survey lists."
-msgstr ""
+msgstr "Legt fest, ob das Statistikmodul Umfragelisten erstellen darf."
 
 #: ../../content/index.rst:61
 msgid "Core::Survey"
-msgstr ""
+msgstr "Core::Survey"
 
 #: ../../content/index.rst:64
 msgid "Survey::ShowVoteData"
-msgstr ""
+msgstr "Survey::ShowVoteData"
 
 #: ../../content/index.rst:65
 msgid ""
@@ -109,10 +111,13 @@ msgid ""
 " data of a specific survey result when the customer tries to answer a "
 "survey the second time."
 msgstr ""
+"Aktivieren oder deaktivieren Sie den Screen „ShowVoteData“ im Public-"
+"Interface, um Daten eines bestimmten Umfrageergebnisses anzuzeigen, wenn der "
+"Kunde versucht, eine Umfrage zum zweiten Mal zu beantworten."
 
 #: ../../content/index.rst:68
 msgid "Survey::SendPeriod"
-msgstr ""
+msgstr "Survey::SendPeriod"
 
 #: ../../content/index.rst:69
 msgid ""
@@ -120,10 +125,13 @@ msgid ""
 "requests are sent to the same customer. Selecting 0 will always send the "
 "survey mail."
 msgstr ""
+"Anzahl der Tage nach dem Versand einer Umfrage-E-Mail, in denen keine neuen "
+"Umfrageanfragen an denselben Kunden gesendet werden. Bei Auswahl von 0 wird "
+"die Umfrage-E-Mail immer wieder versendet."
 
 #: ../../content/index.rst:72
 msgid "Survey::DeletePeriod"
-msgstr ""
+msgstr "Survey::DeletePeriod"
 
 #: ../../content/index.rst:73
 msgid ""
@@ -131,66 +139,81 @@ msgid ""
 "delete results done by the OTOBO Daemon, prior activation of "
 "'Task###SurveyRequestsDelete' setting."
 msgstr ""
+"Ergebnisse, die älter als die konfigurierte Anzahl von Tagen sind, werden "
+"gelöscht. Hinweis: Löschen Sie die Ergebnisse mit dem OTOBO-Daemon, bevor "
+"Sie die Einstellung „Task###SurveyRequestsDelete” aktivieren."
 
 #: ../../content/index.rst:76
 msgid "Survey::CheckSendConditionTicketType"
-msgstr ""
+msgstr "Survey::CheckSendConditionTicketType"
 
 #: ../../content/index.rst:77
 msgid "Enable or disable the send condition check for the ticket type."
 msgstr ""
+"Aktivieren oder deaktivieren Sie die Überprüfung der Versandbedingungen für "
+"den Ticket-Typ."
 
 #: ../../content/index.rst:80
 msgid "Survey::CheckSendConditionService"
-msgstr ""
+msgstr "Survey::CheckSendConditionService"
 
 #: ../../content/index.rst:81
 msgid "Enable or disable the send condition check for the service."
 msgstr ""
+"Aktivieren oder deaktivieren Sie die Überprüfung der Sendebedingung für "
+"diesen Dienst."
 
 #: ../../content/index.rst:84
 msgid "Survey::NotificationSender"
-msgstr ""
+msgstr "Survey::NotificationSender"
 
 #: ../../content/index.rst:85
 msgid "Default sender for the notification email to customers about new survey."
 msgstr ""
+"Standardabsender für die Benachrichtigungs-E-Mail an Kunden über neue "
+"Umfragen."
 
 #: ../../content/index.rst:88
 msgid "Survey::NotificationRecipientBlacklist"
-msgstr ""
+msgstr "Survey::NotificationRecipientBlacklist"
 
 #: ../../content/index.rst:89
 msgid "Surveys will not be sent to the configured email addresses."
-msgstr ""
+msgstr "Umfragen werden nicht an die hinterlegten E-Mail-Adressen gesendet."
 
 #: ../../content/index.rst:92
 msgid "Survey::NotificationSubject"
-msgstr ""
+msgstr "Survey::NotificationSubject"
 
 #: ../../content/index.rst:93
 msgid "Default subject for the notification email to customers about new survey."
 msgstr ""
+"Standardbetreff für die Benachrichtigungs-E-Mail an Kunden über eine neue "
+"Umfrage."
 
 #: ../../content/index.rst:96
 msgid "Survey::NotificationBody"
-msgstr ""
+msgstr "Survey::NotificationBody"
 
 #: ../../content/index.rst:97
 msgid "Default body for the notification email to customers about new survey."
 msgstr ""
+"Standardtext (Body) für die Benachrichtigungs-E-Mail an Kunden über eine "
+"neue Umfrage."
 
 #: ../../content/index.rst:100
 msgid "Survey::SendNoSurveyRegExp"
-msgstr ""
+msgstr "Survey::SendNoSurveyRegExp"
 
 #: ../../content/index.rst:101
 msgid "If this regex matches, no customer survey will be sent."
 msgstr ""
+"Wenn diese reguläre Ausdruck übereinstimmt, wird keine Kundenumfrage "
+"versandt."
 
 #: ../../content/index.rst:104
 msgid "Survey::SendInHoursAfterClose"
-msgstr ""
+msgstr "Survey::SendInHoursAfterClose"
 
 #: ../../content/index.rst:105
 msgid ""
