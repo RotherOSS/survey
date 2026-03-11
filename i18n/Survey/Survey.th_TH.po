@@ -701,4 +701,3 @@ msgstr "การกระตุ้นการส่งการร้องข
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr ""
-

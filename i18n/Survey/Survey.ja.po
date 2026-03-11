@@ -740,4 +740,3 @@ msgstr "追ってのアンケート要求を送信するトリガ"
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "統計情報の詳細をズームインする。"
-

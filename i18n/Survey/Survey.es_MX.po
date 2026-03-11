@@ -764,4 +764,3 @@ msgstr "Disparador para solicitudes de envío de encuestas retrasadas."
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Ir a los detalles de la estadística."
-

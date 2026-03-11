@@ -766,4 +766,3 @@ msgstr "Desencadenar el envío de solicitudes de encuesta con retraso."
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Ir a los detalles de la Estadística."
-

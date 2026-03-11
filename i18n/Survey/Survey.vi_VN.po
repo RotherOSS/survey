@@ -721,4 +721,3 @@ msgstr "Bẫy gửi yêu cầu khảo sát bị trễ."
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr ""
-

@@ -764,4 +764,3 @@ msgstr "Auslöser zum Senden von verzögerten Anfragen."
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Statistik-Details erhöhen."
-

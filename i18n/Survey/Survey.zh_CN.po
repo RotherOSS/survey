@@ -707,4 +707,3 @@ msgstr "触发器发送延迟的调查请求。"
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "进入调查统计详情。"
-

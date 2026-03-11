@@ -761,4 +761,3 @@ msgstr "Attiva l'invio di richieste di sondaggi ritardate."
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Ingrandisci i dettagli delle statistiche."
-

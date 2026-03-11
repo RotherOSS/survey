@@ -764,4 +764,3 @@ msgstr "Disparar o envio de solicitações de pesquisa atrasadas."
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Zoom em detalhes de estatísticas."
-

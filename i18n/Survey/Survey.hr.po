@@ -694,4 +694,3 @@ msgstr ""
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr ""
-

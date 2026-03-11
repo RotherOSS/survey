@@ -735,4 +735,3 @@ msgstr "Триггер отправки задержанных запросов 
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Масштабировать детали статистики."
-

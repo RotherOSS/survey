@@ -728,4 +728,3 @@ msgstr "Wyzwalacz opóźnionej wysyłki próśb o wypełnienie ankiety."
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Podgląd szczegółów statystyk."
-

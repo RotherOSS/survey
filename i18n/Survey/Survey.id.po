@@ -734,4 +734,3 @@ msgstr "Mulai pengiriman permintaan survey yang yang ditunda"
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr ""
-

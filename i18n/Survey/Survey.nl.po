@@ -754,4 +754,3 @@ msgstr "Activeer het verzenden van vertraagde enquêteaanvragen."
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Zoom in op statistische details."
-

@@ -745,4 +745,3 @@ msgstr "Pencetus menghantar permohonan soal selidik ditangguhkan"
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr ""
-

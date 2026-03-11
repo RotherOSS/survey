@@ -761,4 +761,3 @@ msgstr "Trigger изпраща закъснели заявки за проучв
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Увеличете статистическите данни."
-

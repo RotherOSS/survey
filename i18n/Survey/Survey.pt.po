@@ -762,4 +762,3 @@ msgstr "Disparar o envio de pedidos de questionários atrasados."
 #. SysConfig
 msgid "Zoom into statistics details."
 msgstr "Zoom em detalhes de estatísticas."
-
