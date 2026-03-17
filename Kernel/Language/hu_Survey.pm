@@ -49,7 +49,7 @@ sub Data {
     $Self->{Translation}->{'Answer Required'} = 'Válasz kötelező';
     $Self->{Translation}->{'When you finish to edit the survey questions just close this screen.'} =
         'Amikor befejezte a kérdőív kérdéseinek szerkesztését, akkor egyszerűen zárja be ezt a képernyőt.';
-    $Self->{Translation}->{'Close this window'} = 'Ablak bezárása';
+    $Self->{Translation}->{'Close this window'} = 'Az ablak bezárása';
     $Self->{Translation}->{'Edit Question'} = 'Kérdés szerkesztése';
     $Self->{Translation}->{'go back to questions'} = 'vissza a kérdésekhez';
     $Self->{Translation}->{'Question:'} = 'Kérdés:';
@@ -121,7 +121,7 @@ sub Data {
     $Self->{Translation}->{'Yes/No'} = 'Igen/Nem';
     $Self->{Translation}->{'Radio (List)'} = 'Választógomb (lista)';
     $Self->{Translation}->{'Checkbox (List)'} = 'Jelölőnégyzet (lista)';
-    $Self->{Translation}->{'Net Promoter Score'} = 'Valós ügyféltámogatottsági érték';
+    $Self->{Translation}->{'Net Promoter Score'} = 'Valós ügyfél-támogatottsági érték';
     $Self->{Translation}->{'Question Type'} = 'Kérdés típusa';
     $Self->{Translation}->{'Complete'} = 'Kész';
     $Self->{Translation}->{'Incomplete'} = 'Befejezetlen';
@@ -228,7 +228,7 @@ sub Data {
         'Paraméterek a kis kérdőív áttekintő oldalaihoz (amelyekben a kérdőívek megjelennek).';
     $Self->{Translation}->{'Public Survey.'} = 'Nyilvános kérdőív.';
     $Self->{Translation}->{'Results older than the configured amount of days will be deleted. Note: delete results done by the OTOBO Daemon, prior activation of \'Task###SurveyRequestsDelete\' setting.'} =
-        'A beállított napok számánál régebbi eredmények törlésre kerülnek. Megjegyzés: az eredmények törlését az OTOBO démon végzi el a „Task###SurveyRequestsDelete” beállítás aktiválása előtt.';
+        'A beállított napok számánál régebbi eredmények törlésre kerülnek. Megjegyzés: az eredmények törlését az OTOBO démon végzi el a „Task###SurveyRequestsDelete” beállítás előzetes bekapcsolása után.';
     $Self->{Translation}->{'Shows a link in the menu to edit a survey in its zoom view of the agent interface.'} =
         'Egy hivatkozást jelenít meg a menüben egy kérdőív szerkesztéséhez az ügyintézői felületen az elem nagyítási nézetében.';
     $Self->{Translation}->{'Shows a link in the menu to edit survey questions in its zoom view of the agent interface.'} =
