@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otobo_package version="1.0">
     <Name>Survey</Name>
-    <Version>11.0.0</Version>
+    <Version>0.0.0</Version>
     <Framework>11.0.x</Framework>
     <Vendor>Rother OSS GmbH</Vendor>
-    <URL>https://otobo.de/</URL>
+    <URL>https://otobo.io/</URL>
     <License>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</License>
     <Description Lang="en">A customer survey tool.</Description>
     <Description Lang="de">Ein Kundenumfragen Werkzeug.</Description>
@@ -13,23 +13,34 @@
     <Filelist>
         <File Permission="660" Location="doc/survey-database.png" />
         <File Permission="660" Location="Kernel/Config/Files/XML/Survey.xml" />
+        <File Permission="660" Location="Kernel/Language/ar_SA_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/bg_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/ca_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/cs_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/da_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/de_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/el_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/en_CA_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/en_GB_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/es_CO_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/es_MX_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/es_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/et_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/fa_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/fi_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/fr_CA_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/fr_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/gl_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/he_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/hi_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/hr_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/hu_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/id_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/it_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/ja_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/ko_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/lt_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/lv_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/mk_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/ms_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/nb_NO_Survey.pm" />
@@ -45,6 +56,7 @@
         <File Permission="660" Location="Kernel/Language/sv_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/sw_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/th_TH_Survey.pm" />
+        <File Permission="660" Location="Kernel/Language/tr_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/uk_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/vi_VN_Survey.pm" />
         <File Permission="660" Location="Kernel/Language/zh_CN_Survey.pm" />
