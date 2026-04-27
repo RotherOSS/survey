@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
-# This file is distributed under the same license as the OTOBO Installation Guide package.
+# Copyright (C) 2019–2026 Rother OSS GmbH, https://otobo.io
+# This file is distributed under the same license as the OTOBO Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
+"Project-Id-Version: OTOBO Documentation dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-22 06:31+0200\n"
+"POT-Creation-Date: 2026-04-27 06:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,495 +16,494 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../content/index.rst:20
-msgid "Sacrifice to Sphinx"
+#: ../content/index.rst:5
+msgid "Contents"
 msgstr ""
 
-#: ../../content/index.rst:23
+#: ../content/index.rst:10
 msgid "Description"
 msgstr ""
 
-#: ../../content/index.rst:24
+#: ../content/index.rst:11
 msgid "A customer survey tool."
 msgstr ""
 
-#: ../../content/index.rst:27
+#: ../content/index.rst:14
 msgid "System requirements"
 msgstr ""
 
-#: ../../content/index.rst:30
+#: ../content/index.rst:17
 msgid "Framework"
 msgstr ""
 
-#: ../../content/index.rst:31
+#: ../content/index.rst:18
 msgid "OTOBO 11.0.x"
 msgstr ""
 
-#: ../../content/index.rst:34
+#: ../content/index.rst:21
 msgid "Packages"
 msgstr ""
 
-#: ../../content/index.rst:35
-#: ../../content/index.rst:39
+#: ../content/index.rst:22
+#: ../content/index.rst:26
 msgid "\\-"
 msgstr ""
 
-#: ../../content/index.rst:38
+#: ../content/index.rst:25
 msgid "Third-party software"
 msgstr ""
 
-#: ../../content/index.rst:42
+#: ../content/index.rst:29
 msgid "Usage"
 msgstr ""
 
-#: ../../content/index.rst:45
+#: ../content/index.rst:32
 msgid "Setup"
 msgstr ""
 
-#: ../../content/index.rst:48
+#: ../content/index.rst:35
 msgid "Configuration Reference"
 msgstr ""
 
-#: ../../content/index.rst:51
+#: ../content/index.rst:38
 msgid "Core::Event::Survey"
 msgstr ""
 
-#: ../../content/index.rst:54
+#: ../content/index.rst:41
 msgid "Ticket::EventModulePost###99-SurveySendRequest"
 msgstr ""
 
-#: ../../content/index.rst:55
+#: ../content/index.rst:42
 msgid "Ticket event module to send automatically survey email requests to customers if a ticket is closed."
 msgstr ""
 
-#: ../../content/index.rst:58
+#: ../content/index.rst:45
 msgid "Core::Stats"
 msgstr ""
 
-#: ../../content/index.rst:61
+#: ../content/index.rst:48
 msgid "Stats::DynamicObjectRegistration###SurveyList"
 msgstr ""
 
-#: ../../content/index.rst:62
+#: ../content/index.rst:49
 msgid "Determines if the statistics module may generate survey lists."
 msgstr ""
 
-#: ../../content/index.rst:65
+#: ../content/index.rst:52
 msgid "Core::Survey"
 msgstr ""
 
-#: ../../content/index.rst:68
+#: ../content/index.rst:55
 msgid "Survey::ShowVoteData"
 msgstr ""
 
-#: ../../content/index.rst:69
+#: ../content/index.rst:56
 msgid "Enable or disable the ShowVoteData screen in the public interface to show data of a specific survey result when the customer tries to answer a survey the second time."
 msgstr ""
 
-#: ../../content/index.rst:72
+#: ../content/index.rst:59
 msgid "Survey::SendPeriod"
 msgstr ""
 
-#: ../../content/index.rst:73
+#: ../content/index.rst:60
 msgid "Amount of days after sending a survey mail in which no new survey requests are sent to the same customer. Selecting 0 will always send the survey mail."
 msgstr ""
 
-#: ../../content/index.rst:76
+#: ../content/index.rst:63
 msgid "Survey::DeletePeriod"
 msgstr ""
 
-#: ../../content/index.rst:77
+#: ../content/index.rst:64
 msgid "Results older than the configured amount of days will be deleted. Note: delete results done by the OTOBO Daemon, prior activation of 'Task###SurveyRequestsDelete' setting."
 msgstr ""
 
-#: ../../content/index.rst:80
+#: ../content/index.rst:67
 msgid "Survey::CheckSendConditionTicketType"
 msgstr ""
 
-#: ../../content/index.rst:81
+#: ../content/index.rst:68
 msgid "Enable or disable the send condition check for the ticket type."
 msgstr ""
 
-#: ../../content/index.rst:84
+#: ../content/index.rst:71
 msgid "Survey::CheckSendConditionService"
 msgstr ""
 
-#: ../../content/index.rst:85
+#: ../content/index.rst:72
 msgid "Enable or disable the send condition check for the service."
 msgstr ""
 
-#: ../../content/index.rst:88
+#: ../content/index.rst:75
 msgid "Survey::NotificationSender"
 msgstr ""
 
-#: ../../content/index.rst:89
+#: ../content/index.rst:76
 msgid "Default sender for the notification email to customers about new survey."
 msgstr ""
 
-#: ../../content/index.rst:92
+#: ../content/index.rst:79
 msgid "Survey::NotificationRecipientBlacklist"
 msgstr ""
 
-#: ../../content/index.rst:93
+#: ../content/index.rst:80
 msgid "Surveys will not be sent to the configured email addresses."
 msgstr ""
 
-#: ../../content/index.rst:96
+#: ../content/index.rst:83
 msgid "Survey::NotificationSubject"
 msgstr ""
 
-#: ../../content/index.rst:97
+#: ../content/index.rst:84
 msgid "Default subject for the notification email to customers about new survey."
 msgstr ""
 
-#: ../../content/index.rst:100
+#: ../content/index.rst:87
 msgid "Survey::NotificationBody"
 msgstr ""
 
-#: ../../content/index.rst:101
+#: ../content/index.rst:88
 msgid "Default body for the notification email to customers about new survey."
 msgstr ""
 
-#: ../../content/index.rst:104
+#: ../content/index.rst:91
 msgid "Survey::SendNoSurveyRegExp"
 msgstr ""
 
-#: ../../content/index.rst:105
+#: ../content/index.rst:92
 msgid "If this regex matches, no customer survey will be sent."
 msgstr ""
 
-#: ../../content/index.rst:108
+#: ../content/index.rst:95
 msgid "Survey::SendInHoursAfterClose"
 msgstr ""
 
-#: ../../content/index.rst:109
+#: ../content/index.rst:96
 msgid "Defines the amount in hours a ticket has to be closed to trigger the sending of a survey, ( 0 means send immediately after close ). Note: delayed survey sending is done by the OTOBO Daemon, prior activation of 'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend' setting."
 msgstr ""
 
-#: ../../content/index.rst:112
+#: ../content/index.rst:99
 msgid "Survey::AmountOfSurveysPer30Days"
 msgstr ""
 
-#: ../../content/index.rst:113
+#: ../content/index.rst:100
 msgid "Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent)."
 msgstr ""
 
-#: ../../content/index.rst:116
+#: ../content/index.rst:103
 msgid "Survey::Hook"
 msgstr ""
 
-#: ../../content/index.rst:117
+#: ../content/index.rst:104
 msgid "The identifier for a survey, e.g. Survey#, MySurvey#. The default is Survey#."
 msgstr ""
 
-#: ../../content/index.rst:120
+#: ../content/index.rst:107
 msgid "Survey::CheckSendConditionCustomerFields"
 msgstr ""
 
-#: ../../content/index.rst:121
+#: ../content/index.rst:108
 msgid "Defines the columns for the dropdown list for building send conditions (0 => inactive, 1 => active)."
 msgstr ""
 
-#: ../../content/index.rst:124
+#: ../content/index.rst:111
 msgid "Survey::SendOnlyToRealCustomer"
 msgstr ""
 
-#: ../../content/index.rst:125
+#: ../content/index.rst:112
 msgid "Defines if survey requests will be only send to real customers."
 msgstr ""
 
-#: ../../content/index.rst:128
+#: ../content/index.rst:115
 msgid "Daemon::SchedulerCronTaskManager::Task"
 msgstr ""
 
-#: ../../content/index.rst:131
+#: ../content/index.rst:118
 msgid "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend"
 msgstr ""
 
-#: ../../content/index.rst:132
+#: ../content/index.rst:119
 msgid "Trigger sending delayed survey requests."
 msgstr ""
 
-#: ../../content/index.rst:135
+#: ../content/index.rst:122
 msgid "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsDelete"
 msgstr ""
 
-#: ../../content/index.rst:136
+#: ../content/index.rst:123
 msgid "Trigger delete results (including vote data and requests)."
 msgstr ""
 
-#: ../../content/index.rst:139
+#: ../content/index.rst:126
 msgid "Frontend::Agent::ModuleRegistration"
 msgstr ""
 
-#: ../../content/index.rst:142
+#: ../content/index.rst:129
 msgid "Frontend::Module###AgentSurveyAdd"
 msgstr ""
 
-#: ../../content/index.rst:143
+#: ../content/index.rst:130
 msgid "Frontend module registration for survey add in the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:146
+#: ../content/index.rst:133
 msgid "Frontend::Module###AgentSurveyEdit"
 msgstr ""
 
-#: ../../content/index.rst:147
+#: ../content/index.rst:134
 msgid "Frontend module registration for survey edit in the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:150
+#: ../content/index.rst:137
 msgid "Frontend::Module###AgentSurveyOverview"
 msgstr ""
 
-#: ../../content/index.rst:151
+#: ../content/index.rst:138
 msgid "All parameters for the Survey object in the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:154
+#: ../content/index.rst:141
 msgid "Frontend::Module###AgentSurveyStats"
 msgstr ""
 
-#: ../../content/index.rst:155
+#: ../content/index.rst:142
 msgid "Frontend module registration for survey stats in the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:158
+#: ../content/index.rst:145
 msgid "Frontend::Module###AgentSurveyZoom"
 msgstr ""
 
-#: ../../content/index.rst:159
-#: ../../content/index.rst:163
+#: ../content/index.rst:146
+#: ../content/index.rst:150
 msgid "Frontend module registration for survey zoom in the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:162
+#: ../content/index.rst:149
 msgid "Frontend::Module###AgentSurveyEditQuestions"
 msgstr ""
 
-#: ../../content/index.rst:166
+#: ../content/index.rst:153
 msgid "Frontend::Agent::ModuleRegistration::Loader"
 msgstr ""
 
-#: ../../content/index.rst:169
+#: ../content/index.rst:156
 msgid "Loader::Module::AgentSurveyAdd###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:170
-#: ../../content/index.rst:174
-#: ../../content/index.rst:178
-#: ../../content/index.rst:182
-#: ../../content/index.rst:186
-#: ../../content/index.rst:190
-#: ../../content/index.rst:286
+#: ../content/index.rst:157
+#: ../content/index.rst:161
+#: ../content/index.rst:165
+#: ../content/index.rst:169
+#: ../content/index.rst:173
+#: ../content/index.rst:177
+#: ../content/index.rst:273
 msgid "Loader module registration for the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:173
+#: ../content/index.rst:160
 msgid "Loader::Module::AgentSurveyOverview###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:177
+#: ../content/index.rst:164
 msgid "Loader::Module::AgentSurveyEdit###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:181
+#: ../content/index.rst:168
 msgid "Loader::Module::AgentSurveyStats###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:185
+#: ../content/index.rst:172
 msgid "Loader::Module::AgentSurveyZoom###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:189
+#: ../content/index.rst:176
 msgid "Loader::Module::AgentSurveyEditQuestions###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:193
+#: ../content/index.rst:180
 msgid "Frontend::Agent::ModuleRegistration::MainMenu"
 msgstr ""
 
-#: ../../content/index.rst:196
+#: ../content/index.rst:183
 msgid "Frontend::Navigation###AgentSurveyAdd###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:197
-#: ../../content/index.rst:201
-#: ../../content/index.rst:205
-#: ../../content/index.rst:209
-#: ../../content/index.rst:213
+#: ../content/index.rst:184
+#: ../content/index.rst:188
+#: ../content/index.rst:192
+#: ../content/index.rst:196
+#: ../content/index.rst:200
 msgid "Main menu item registration."
 msgstr ""
 
-#: ../../content/index.rst:200
+#: ../content/index.rst:187
 msgid "Frontend::Navigation###AgentSurveyOverview###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:204
+#: ../content/index.rst:191
 msgid "Frontend::Navigation###AgentSurveyEdit###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:208
+#: ../content/index.rst:195
 msgid "Frontend::Navigation###AgentSurveyStats###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:212
+#: ../content/index.rst:199
 msgid "Frontend::Navigation###AgentSurveyZoom###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:216
+#: ../content/index.rst:203
 msgid "Frontend::Agent::SurveyOverview"
 msgstr ""
 
-#: ../../content/index.rst:219
+#: ../content/index.rst:206
 msgid "Survey::Frontend::Overview###Small"
 msgstr ""
 
-#: ../../content/index.rst:220
+#: ../content/index.rst:207
 msgid "Defines an overview module to show the small view of a survey list."
 msgstr ""
 
-#: ../../content/index.rst:223
+#: ../content/index.rst:210
 msgid "Frontend::Agent::View::Preferences"
 msgstr ""
 
-#: ../../content/index.rst:226
+#: ../content/index.rst:213
 msgid "PreferencesGroups###SurveyOverviewSmallPageShown"
 msgstr ""
 
-#: ../../content/index.rst:227
+#: ../content/index.rst:214
 msgid "Parameters for the pages (in which the surveys are shown) of the small survey overview."
 msgstr ""
 
-#: ../../content/index.rst:230
+#: ../content/index.rst:217
 msgid "Frontend::Agent::View::SurveyOverview"
 msgstr ""
 
-#: ../../content/index.rst:233
+#: ../content/index.rst:220
 msgid "Survey::Frontend::AgentSurveyOverview###ShowColumns"
 msgstr ""
 
-#: ../../content/index.rst:234
+#: ../content/index.rst:221
 msgid "Defines the shown columns in the survey overview. This option has no effect on the position of the columns."
 msgstr ""
 
-#: ../../content/index.rst:237
+#: ../content/index.rst:224
 msgid "Frontend::Agent::View::SurveyStats"
 msgstr ""
 
-#: ../../content/index.rst:240
+#: ../content/index.rst:227
 msgid "SurveyStats::ShowDelete"
 msgstr ""
 
-#: ../../content/index.rst:241
+#: ../content/index.rst:228
 msgid "Defines the groups (rw) which can delete survey stats."
 msgstr ""
 
-#: ../../content/index.rst:244
+#: ../content/index.rst:231
 msgid "Frontend::Agent::View::SurveyZoom"
 msgstr ""
 
-#: ../../content/index.rst:247
+#: ../content/index.rst:234
 msgid "Survey::Frontend::HTMLRichTextHeightDefault"
 msgstr ""
 
-#: ../../content/index.rst:248
+#: ../content/index.rst:235
 msgid "Defines the default height for Richtext views for SurveyZoom elements."
 msgstr ""
 
-#: ../../content/index.rst:251
+#: ../content/index.rst:238
 msgid "Survey::Frontend::HTMLRichTextHeightMax"
 msgstr ""
 
-#: ../../content/index.rst:252
+#: ../content/index.rst:239
 msgid "Defines the maximum height for Richtext views for SurveyZoom elements."
 msgstr ""
 
-#: ../../content/index.rst:255
+#: ../content/index.rst:242
 msgid "Survey::Frontend::ChangeSurveyStatusGroups"
 msgstr ""
 
-#: ../../content/index.rst:256
+#: ../content/index.rst:243
 msgid "Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status."
 msgstr ""
 
-#: ../../content/index.rst:259
+#: ../content/index.rst:246
 msgid "Frontend::Agent::View::SurveyZoom::MenuModule"
 msgstr ""
 
-#: ../../content/index.rst:262
+#: ../content/index.rst:249
 msgid "Survey::Frontend::MenuModule###000-Back"
 msgstr ""
 
-#: ../../content/index.rst:263
+#: ../content/index.rst:250
 msgid "Shows a link in the menu to go back in the survey zoom view of the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:266
+#: ../content/index.rst:253
 msgid "Survey::Frontend::MenuModule###010-EditGeneralInfo"
 msgstr ""
 
-#: ../../content/index.rst:267
+#: ../content/index.rst:254
 msgid "Shows a link in the menu to edit a survey in its zoom view of the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:270
+#: ../content/index.rst:257
 msgid "Survey::Frontend::MenuModule###020-EditQuestions"
 msgstr ""
 
-#: ../../content/index.rst:271
+#: ../content/index.rst:258
 msgid "Shows a link in the menu to edit survey questions in its zoom view of the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:274
+#: ../content/index.rst:261
 msgid "Survey::Frontend::MenuModule###030-StatsDetails"
 msgstr ""
 
-#: ../../content/index.rst:275
+#: ../content/index.rst:262
 msgid "Shows a link in the menu to zoom into the survey statistics details in its zoom view of the agent interface."
 msgstr ""
 
-#: ../../content/index.rst:278
+#: ../content/index.rst:265
 msgid "Frontend::Public::ModuleRegistration"
 msgstr ""
 
-#: ../../content/index.rst:281
+#: ../content/index.rst:268
 msgid "PublicFrontend::Module###PublicSurvey"
 msgstr ""
 
-#: ../../content/index.rst:282
+#: ../content/index.rst:269
 msgid "Frontend module registration for the PublicSurvey object in the public Survey area."
 msgstr ""
 
-#: ../../content/index.rst:285
+#: ../content/index.rst:272
 msgid "Loader::Module::PublicSurvey###002-Survey"
 msgstr ""
 
-#: ../../content/index.rst:289
+#: ../content/index.rst:276
 msgid "About"
 msgstr ""
 
-#: ../../content/index.rst:292
+#: ../content/index.rst:279
 msgid "Contact"
 msgstr ""
 
-#: ../../content/index.rst:293
+#: ../content/index.rst:280
 msgid "Rother OSS GmbH"
 msgstr ""
 
-#: ../../content/index.rst:294
+#: ../content/index.rst:281
 msgid "Email: hello@otobo.de"
 msgstr ""
 
-#: ../../content/index.rst:295
+#: ../content/index.rst:282
 msgid "Web: https://otobo.de"
 msgstr ""
 
-#: ../../content/index.rst:298
+#: ../content/index.rst:285
 msgid "Version"
 msgstr ""
 
-#: ../../content/index.rst:299
+#: ../content/index.rst:286
 msgid "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-datestamp|"
 msgstr ""
-
