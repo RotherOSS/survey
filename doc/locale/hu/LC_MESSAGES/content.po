@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-27 06:27+0000\n"
-"PO-Revision-Date: 2026-07-13 12:00+0000\n"
+"PO-Revision-Date: 2026-07-13 16:00+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-1/"
 "addons/manuals/survey-documentation/hu/>\n"
@@ -262,7 +262,7 @@ msgstr ""
 
 #: ../content/index.rst:126
 msgid "Frontend::Agent::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Agent::ModuleRegistration"
 
 #: ../content/index.rst:129
 msgid "Frontend::Module###AgentSurveyAdd"
@@ -310,7 +310,7 @@ msgstr ""
 
 #: ../content/index.rst:153
 msgid "Frontend::Agent::ModuleRegistration::Loader"
-msgstr ""
+msgstr "Frontend::Agent::ModuleRegistration::Loader"
 
 #: ../content/index.rst:156
 msgid "Loader::Module::AgentSurveyAdd###002-Survey"
@@ -344,7 +344,7 @@ msgstr ""
 
 #: ../content/index.rst:180
 msgid "Frontend::Agent::ModuleRegistration::MainMenu"
-msgstr ""
+msgstr "Frontend::Agent::ModuleRegistration::MainMenu"
 
 #: ../content/index.rst:183
 msgid "Frontend::Navigation###AgentSurveyAdd###002-Survey"
@@ -385,7 +385,7 @@ msgstr ""
 
 #: ../content/index.rst:210
 msgid "Frontend::Agent::View::Preferences"
-msgstr ""
+msgstr "Frontend::Agent::View::Preferences"
 
 #: ../content/index.rst:213
 msgid "PreferencesGroups###SurveyOverviewSmallPageShown"
@@ -499,7 +499,7 @@ msgstr ""
 
 #: ../content/index.rst:265
 msgid "Frontend::Public::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Public::ModuleRegistration"
 
 #: ../content/index.rst:268
 msgid "PublicFrontend::Module###PublicSurvey"
