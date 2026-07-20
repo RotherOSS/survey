@@ -180,9 +180,6 @@ sub Run {
                         );
                     }
                     elsif ( $Question->{Type} eq 'Checkbox' ) {
-                        my @AnswerList = $SurveyObject->AnswerList(
-                            QuestionID => $Question->{QuestionID}
-                        );
                         if (
                             $Answers{ $Question->{QuestionID} }
                             && ref $Answers{ $Question->{QuestionID} } eq 'ARRAY'
@@ -279,7 +276,6 @@ sub Run {
         );
 
         my $SurveyID  = $RequestData{SurveyID};
-        my $TicketID  = $RequestData{TicketID};
         my $RequestID = $RequestData{RequestID};
 
         # check if survey exists

@@ -37,7 +37,7 @@ $Selenium->RunTest(
             Value => 'Kernel::System::Email::DoNotSendEmail',
         );
 
-        # Do not check email adresses in this test.
+        # Do not check email addresses in this test.
         $Helper->ConfigSettingChange(
             Key   => 'CheckEmailAddresses',
             Value => 0,
@@ -62,14 +62,14 @@ $Selenium->RunTest(
         );
 
         # Create test survey.
-        my $SurveryIntroduction = 'Survey Introduction',
-            my $SurveryDescription = 'Survey Description',
+        my $SurveyIntroduction = 'Survey Introduction',
+            my $SurveyDescription = 'Survey Description',
             my $SurveyTitle = 'Survey ' . $Helper->GetRandomID();
         my $SurveyID = $SurveyObject->SurveyAdd(
             UserID              => 1,
             Title               => $SurveyTitle,
-            Introduction        => $SurveryIntroduction,
-            Description         => $SurveryDescription,
+            Introduction        => $SurveyIntroduction,
+            Description         => $SurveyDescription,
             NotificationSender  => 'quality@unittest.com',
             NotificationSubject => 'Survey Notification Subject',
             NotificationBody    => 'Survey Notification Body',
@@ -254,7 +254,7 @@ $Selenium->RunTest(
             },
             {
                 Name  => '',
-                Value => $SurveryIntroduction,
+                Value => $SurveyIntroduction,
             },
             {
                 Name  => 'Question',

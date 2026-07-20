@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2025 Rother OSS GmbH, https://otobo.io/
+# Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -19,6 +19,12 @@ package Kernel::System::Survey::Request;
 use strict;
 use warnings;
 
+# core modules
+use List::Util qw(any);
+
+# CPAN modules
+
+# OTOBO modules
 use Kernel::System::VariableCheck qw(:all);
 
 our $ObjectManagerDisabled = 1;
@@ -431,7 +437,6 @@ sub RequestSend {
             $DateTimeObject->Subtract(
                 Days => 30,
             );
-            my $LastSentTime = 0;
 
             return if !$DBObject->Prepare(
                 SQL => '
@@ -756,7 +761,7 @@ sub _GetRequestRecipient {
         # Filter articles that are MIMEBase only.
         my @MIMEBaseArticles;
         for my $Article (@Articles) {
-            if ( grep { $Article->{CommunicationChannelID} == $_ } @MIMEBaseChannelIDs ) {
+            if ( any { $Article->{CommunicationChannelID} == $_ } @MIMEBaseChannelIDs ) {
                 push @MIMEBaseArticles, $Article;
             }
         }

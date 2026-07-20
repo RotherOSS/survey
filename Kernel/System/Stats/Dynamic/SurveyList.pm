@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2025 Rother OSS GmbH, https://otobo.io/
+# Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -79,7 +79,6 @@ sub GetObjectAttributes {
     my ( $Self, %Param ) = @_;
 
     # Get needed objects.
-    my $LockObject   = $Kernel::OM->Get('Kernel::System::Lock');
     my $SurveyObject = $Kernel::OM->Get('Kernel::System::Survey');
 
     my %Limit = (
@@ -612,7 +611,7 @@ sub _SortedAttributes {
         CustomerID
     );
 
-    # Cycle trought the Dynamic Fields.
+    # Cycle trough the Dynamic Fields.
     DYNAMICFIELD:
     for my $DynamicFieldConfig ( @{ $Self->{DynamicField} } ) {
         next DYNAMICFIELD if !IsHashRefWithData($DynamicFieldConfig);

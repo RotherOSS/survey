@@ -331,15 +331,15 @@ Survey.Agent.CustomerUserConditions = (function (TargetNS) {
      * @name ResetListItemIDs
      * @memberof Survey.Agent.CustomerUserConditions
      * @function
-     * @param {String} FieldName - The field for which the listitems should be resetted
+     * @param {String} FieldName - The field for which the list items should be resetted
      * @description
-     *      Resets the IDs of the listitems.
+     *      Resets the IDs of the list items.
      */
     TargetNS.ResetListItemIDs = function (FieldName) {
 
         var $ListItems = $('#' + FieldName + ' ul.CustomerUserConditionsList li.DataItem ul li')
 
-        // Set correct IDs for the listitems.
+        // Set correct IDs for the list items.
         var i = 1;
         $ListItems.each(function () {
 
@@ -403,7 +403,7 @@ Survey.Agent.CustomerUserConditions = (function (TargetNS) {
 
         for (Item in Errors) {
 
-            if(!Errors.hasOwnProperty(Item)) continue;
+            if(!Object.prototype.hasOwnProperty.call(Errors, Item)) continue;
 
             $('#' + Field + ' ul.CustomerUserConditionsList li.DataItem ul li').eq(Item)
                 .find('input[type="text"], select').addClass('ServerError');

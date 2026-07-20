@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2025 Rother OSS GmbH, https://otobo.io/
+# Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -19,6 +19,12 @@ package Kernel::Modules::AgentSurveyZoom;
 use strict;
 use warnings;
 
+# core modules
+use List::Util qw(none);
+
+# CPAN modules
+
+# OTOBO modules
 use Kernel::System::VariableCheck qw(:all);
 use Kernel::Language              qw(Translatable);
 
@@ -461,7 +467,7 @@ sub Run {
         }
     }
 
-    # check survey zoom configrations
+    # check survey zoom configurations
     my $SurveyResultsGraphPermission = $ConfigObject->Get('Frontend::Module')->{AgentSurveyStats}->{Group};
 
     if ( IsArrayRefWithData($SurveyResultsGraphPermission) ) {
@@ -477,7 +483,7 @@ sub Run {
         GROUPS:
         for my $GroupNames (@GroupNames) {
 
-            next GROUPS if !grep { $_ eq $GroupNames } @{$SurveyResultsGraphPermission};
+            next GROUPS if none { $_ eq $GroupNames } @{$SurveyResultsGraphPermission};
 
             $LayoutObject->Block(
                 Name => 'PermissionStatResults',

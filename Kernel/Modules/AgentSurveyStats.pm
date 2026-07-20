@@ -2,7 +2,7 @@
 # OTOBO is a web-based ticketing system for service organisations.
 # --
 # Copyright (C) 2001-2020 OTRS AG, https://otrs.com/
-# Copyright (C) 2019-2025 Rother OSS GmbH, https://otobo.io/
+# Copyright (C) 2019-2026 Rother OSS GmbH, https://otobo.io/
 # --
 # This program is free software: you can redistribute it and/or modify it under
 # the terms of the GNU General Public License as published by the Free Software
@@ -19,6 +19,12 @@ package Kernel::Modules::AgentSurveyStats;
 use strict;
 use warnings;
 
+# core modules
+use List::Util qw(any);
+
+# CPAN modules
+
+# OTOBO modules
 use Kernel::System::VariableCheck qw(:all);
 use Kernel::Language              qw(Translatable);
 
@@ -108,7 +114,7 @@ sub Run {
             # reverse groups
             %Groups = reverse %Groups;
 
-            if ( grep { $Groups{$_} } @{$ShowDeleteArray} ) {
+            if ( any { $Groups{$_} } @{$ShowDeleteArray} ) {
                 $ShowDelete = 1;
             }
         }
