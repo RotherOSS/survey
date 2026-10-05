@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-27 06:27+0000\n"
-"PO-Revision-Date: 2026-10-05 04:41+0000\n"
+"PO-Revision-Date: 2026-10-05 06:42+0000\n"
 "Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
 "Language-Team: Japanese <http://translate.otobo.org/projects/otobo-11-1/"
 "addons/manuals/survey-documentation/ja/>\n"
@@ -23,85 +23,87 @@ msgstr ""
 
 #: ../content/index.rst:5
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../content/index.rst:10
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../content/index.rst:11
 msgid "A customer survey tool."
-msgstr ""
+msgstr "顧客アンケートツール。"
 
 #: ../content/index.rst:14
 msgid "System requirements"
-msgstr ""
+msgstr "システム要件"
 
 #: ../content/index.rst:17
 msgid "Framework"
-msgstr ""
+msgstr "フレームワーク"
 
 #: ../content/index.rst:18
 msgid "OTOBO 11.0.x"
-msgstr ""
+msgstr "OTOBO 11.0.x"
 
 #: ../content/index.rst:21
 msgid "Packages"
-msgstr ""
+msgstr "パッケージ"
 
 #: ../content/index.rst:22 ../content/index.rst:26
 msgid "\\-"
-msgstr ""
+msgstr "\\-"
 
 #: ../content/index.rst:25
 msgid "Third-party software"
-msgstr ""
+msgstr "サードパーティ製ソフトウェア"
 
 #: ../content/index.rst:29
 msgid "Usage"
-msgstr ""
+msgstr "使い方"
 
 #: ../content/index.rst:32
 msgid "Setup"
-msgstr ""
+msgstr "セットアップ"
 
 #: ../content/index.rst:35
 msgid "Configuration Reference"
-msgstr ""
+msgstr "設定リファレンス"
 
 #: ../content/index.rst:38
 msgid "Core::Event::Survey"
-msgstr ""
+msgstr "Core::Event::Survey"
 
 #: ../content/index.rst:41
 msgid "Ticket::EventModulePost###99-SurveySendRequest"
-msgstr ""
+msgstr "Ticket::EventModulePost###99-SurveySendRequest"
 
 #: ../content/index.rst:42
 msgid ""
 "Ticket event module to send automatically survey email requests to customers "
 "if a ticket is closed."
 msgstr ""
+"チケットがクローズされたときに、顧客にアンケート依頼メールを自動送信する"
+"チケットイベントモジュール。"
 
 #: ../content/index.rst:45
 msgid "Core::Stats"
-msgstr ""
+msgstr "Core::Stats"
 
 #: ../content/index.rst:48
 msgid "Stats::DynamicObjectRegistration###SurveyList"
-msgstr ""
+msgstr "Stats::DynamicObjectRegistration###SurveyList"
 
 #: ../content/index.rst:49
 msgid "Determines if the statistics module may generate survey lists."
-msgstr ""
+msgstr "統計モジュールでアンケートの一覧を生成できるかどうかを決定します。"
 
 #: ../content/index.rst:52
 msgid "Core::Survey"
-msgstr ""
+msgstr "Core::Survey"
 
 #: ../content/index.rst:55
 msgid "Survey::ShowVoteData"
-msgstr ""
+msgstr "Survey::ShowVoteData"
 
 #: ../content/index.rst:56
 msgid ""
@@ -109,20 +111,25 @@ msgid ""
 "data of a specific survey result when the customer tries to answer a survey "
 "the second time."
 msgstr ""
+"顧客が同じアンケートに2回目の回答をしようとした場合に、特定のアンケート結果の"
+"データを表示する公開インタフェースの ShowVoteData 画面を有効または無効にしま"
+"す。"
 
 #: ../content/index.rst:59
 msgid "Survey::SendPeriod"
-msgstr ""
+msgstr "Survey::SendPeriod"
 
 #: ../content/index.rst:60
 msgid ""
 "Amount of days after sending a survey mail in which no new survey requests "
 "are sent to the same customer. Selecting 0 will always send the survey mail."
 msgstr ""
+"アンケートメールを送信してから、同じ顧客に新しいアンケート依頼を送信しない日"
+"数。0 を選択すると、常にアンケートメールが送信されます。"
 
 #: ../content/index.rst:63
 msgid "Survey::DeletePeriod"
-msgstr ""
+msgstr "Survey::DeletePeriod"
 
 #: ../content/index.rst:64
 msgid ""
@@ -130,68 +137,71 @@ msgid ""
 "delete results done by the OTOBO Daemon, prior activation of "
 "'Task###SurveyRequestsDelete' setting."
 msgstr ""
+"設定した日数より古い結果は削除されます。注意: 結果の削除は OTOBO デーモンによ"
+"って行われるため、事前に 'Task###SurveyRequestsDelete' 設定を有効にしてくださ"
+"い。"
 
 #: ../content/index.rst:67
 msgid "Survey::CheckSendConditionTicketType"
-msgstr ""
+msgstr "Survey::CheckSendConditionTicketType"
 
 #: ../content/index.rst:68
 msgid "Enable or disable the send condition check for the ticket type."
-msgstr ""
+msgstr "チケットタイプについての送信条件チェックを有効または無効にします。"
 
 #: ../content/index.rst:71
 msgid "Survey::CheckSendConditionService"
-msgstr ""
+msgstr "Survey::CheckSendConditionService"
 
 #: ../content/index.rst:72
 msgid "Enable or disable the send condition check for the service."
-msgstr ""
+msgstr "サービスについての送信条件チェックを有効または無効にします。"
 
 #: ../content/index.rst:75
 msgid "Survey::NotificationSender"
-msgstr ""
+msgstr "Survey::NotificationSender"
 
 #: ../content/index.rst:76
 msgid ""
 "Default sender for the notification email to customers about new survey."
-msgstr ""
+msgstr "新しいアンケートについて顧客に送信する通知メールのデフォルトの送信者。"
 
 #: ../content/index.rst:79
 msgid "Survey::NotificationRecipientBlacklist"
-msgstr ""
+msgstr "Survey::NotificationRecipientBlacklist"
 
 #: ../content/index.rst:80
 msgid "Surveys will not be sent to the configured email addresses."
-msgstr ""
+msgstr "設定したメールアドレスにはアンケートは送信されません。"
 
 #: ../content/index.rst:83
 msgid "Survey::NotificationSubject"
-msgstr ""
+msgstr "Survey::NotificationSubject"
 
 #: ../content/index.rst:84
 msgid ""
 "Default subject for the notification email to customers about new survey."
-msgstr ""
+msgstr "新しいアンケートについて顧客に送信する通知メールのデフォルトの件名。"
 
 #: ../content/index.rst:87
 msgid "Survey::NotificationBody"
-msgstr ""
+msgstr "Survey::NotificationBody"
 
 #: ../content/index.rst:88
 msgid "Default body for the notification email to customers about new survey."
-msgstr ""
+msgstr "新しいアンケートについて顧客に送信する通知メールのデフォルトの本文。"
 
 #: ../content/index.rst:91
 msgid "Survey::SendNoSurveyRegExp"
-msgstr ""
+msgstr "Survey::SendNoSurveyRegExp"
 
 #: ../content/index.rst:92
 msgid "If this regex matches, no customer survey will be sent."
-msgstr ""
+msgstr "この正規表現に一致する場合、顧客アンケートは送信されません。"
 
 #: ../content/index.rst:95
 msgid "Survey::SendInHoursAfterClose"
-msgstr ""
+msgstr "Survey::SendInHoursAfterClose"
 
 #: ../content/index.rst:96
 msgid ""
@@ -200,153 +210,162 @@ msgid ""
 "sending is done by the OTOBO Daemon, prior activation of "
 "'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend' setting."
 msgstr ""
+"アンケートの送信をトリガーするために、チケットがクローズされてから経過してい"
+"る必要がある時間数を定義します（0 はクローズ直後に送信）。注意: 遅延送信は "
+"OTOBO デーモンによって行われるため、事前に "
+"'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend' 設定を有効にし"
+"てください。"
 
 #: ../content/index.rst:99
 msgid "Survey::AmountOfSurveysPer30Days"
-msgstr ""
+msgstr "Survey::AmountOfSurveysPer30Days"
 
 #: ../content/index.rst:100
 msgid ""
 "Defines maximum amount of surveys that get sent to a customer per 30 days. "
 "( 0 means no maximum, all survey requests will be sent)."
 msgstr ""
+"30日間に1人の顧客に送信するアンケートの最大数を定義します（0 は上限なしで、す"
+"べてのアンケート依頼が送信されます）。"
 
 #: ../content/index.rst:103
 msgid "Survey::Hook"
-msgstr ""
+msgstr "Survey::Hook"
 
 #: ../content/index.rst:104
 msgid ""
 "The identifier for a survey, e.g. Survey#, MySurvey#. The default is Survey#."
-msgstr ""
+msgstr "アンケートの識別子（例: Survey#、MySurvey#）。デフォルトは Survey# です。"
 
 #: ../content/index.rst:107
 msgid "Survey::CheckSendConditionCustomerFields"
-msgstr ""
+msgstr "Survey::CheckSendConditionCustomerFields"
 
 #: ../content/index.rst:108
 msgid ""
 "Defines the columns for the dropdown list for building send conditions (0 => "
 "inactive, 1 => active)."
 msgstr ""
+"送信条件を作成するためのドロップダウンリストの列を定義します（0 => 無効、1 "
+"=> 有効）。"
 
 #: ../content/index.rst:111
 msgid "Survey::SendOnlyToRealCustomer"
-msgstr ""
+msgstr "Survey::SendOnlyToRealCustomer"
 
 #: ../content/index.rst:112
 msgid "Defines if survey requests will be only send to real customers."
-msgstr ""
+msgstr "アンケート依頼を実在の顧客にのみ送信するかどうかを定義します。"
 
 #: ../content/index.rst:115
 msgid "Daemon::SchedulerCronTaskManager::Task"
-msgstr ""
+msgstr "Daemon::SchedulerCronTaskManager::Task"
 
 #: ../content/index.rst:118
 msgid "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend"
-msgstr ""
+msgstr "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend"
 
 #: ../content/index.rst:119
 msgid "Trigger sending delayed survey requests."
-msgstr ""
+msgstr "遅延したアンケート依頼の送信をトリガーします。"
 
 #: ../content/index.rst:122
 msgid "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsDelete"
-msgstr ""
+msgstr "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsDelete"
 
 #: ../content/index.rst:123
 msgid "Trigger delete results (including vote data and requests)."
-msgstr ""
+msgstr "結果（投票データと依頼を含む）の削除をトリガーします。"
 
 #: ../content/index.rst:126
 msgid "Frontend::Agent::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Agent::ModuleRegistration"
 
 #: ../content/index.rst:129
 msgid "Frontend::Module###AgentSurveyAdd"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyAdd"
 
 #: ../content/index.rst:130
 msgid "Frontend module registration for survey add in the agent interface."
-msgstr ""
+msgstr "担当者インタフェースのアンケート追加用のフロントエンドモジュールの登録。"
 
 #: ../content/index.rst:133
 msgid "Frontend::Module###AgentSurveyEdit"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyEdit"
 
 #: ../content/index.rst:134
 msgid "Frontend module registration for survey edit in the agent interface."
-msgstr ""
+msgstr "担当者インタフェースのアンケート編集用のフロントエンドモジュールの登録。"
 
 #: ../content/index.rst:137
 msgid "Frontend::Module###AgentSurveyOverview"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyOverview"
 
 #: ../content/index.rst:138
 msgid "All parameters for the Survey object in the agent interface."
-msgstr ""
+msgstr "担当者インタフェースにおける Survey オブジェクトのすべてのパラメータ。"
 
 #: ../content/index.rst:141
 msgid "Frontend::Module###AgentSurveyStats"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyStats"
 
 #: ../content/index.rst:142
 msgid "Frontend module registration for survey stats in the agent interface."
-msgstr ""
+msgstr "担当者インタフェースのアンケート統計用のフロントエンドモジュールの登録。"
 
 #: ../content/index.rst:145
 msgid "Frontend::Module###AgentSurveyZoom"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyZoom"
 
 #: ../content/index.rst:146 ../content/index.rst:150
 msgid "Frontend module registration for survey zoom in the agent interface."
-msgstr ""
+msgstr "担当者インタフェースのアンケートズーム用のフロントエンドモジュールの登録。"
 
 #: ../content/index.rst:149
 msgid "Frontend::Module###AgentSurveyEditQuestions"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyEditQuestions"
 
 #: ../content/index.rst:153
 msgid "Frontend::Agent::ModuleRegistration::Loader"
-msgstr ""
+msgstr "Frontend::Agent::ModuleRegistration::Loader"
 
 #: ../content/index.rst:156
 msgid "Loader::Module::AgentSurveyAdd###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyAdd###002-Survey"
 
 #: ../content/index.rst:157 ../content/index.rst:161 ../content/index.rst:165
 #: ../content/index.rst:169 ../content/index.rst:173 ../content/index.rst:177
 #: ../content/index.rst:273
 msgid "Loader module registration for the agent interface."
-msgstr ""
+msgstr "担当者インタフェース用のローダーモジュールの登録。"
 
 #: ../content/index.rst:160
 msgid "Loader::Module::AgentSurveyOverview###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyOverview###002-Survey"
 
 #: ../content/index.rst:164
 msgid "Loader::Module::AgentSurveyEdit###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyEdit###002-Survey"
 
 #: ../content/index.rst:168
 msgid "Loader::Module::AgentSurveyStats###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyStats###002-Survey"
 
 #: ../content/index.rst:172
 msgid "Loader::Module::AgentSurveyZoom###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyZoom###002-Survey"
 
 #: ../content/index.rst:176
 msgid "Loader::Module::AgentSurveyEditQuestions###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyEditQuestions###002-Survey"
 
 #: ../content/index.rst:180
 msgid "Frontend::Agent::ModuleRegistration::MainMenu"
-msgstr ""
+msgstr "Frontend::Agent::ModuleRegistration::MainMenu"
 
 #: ../content/index.rst:183
 msgid "Frontend::Navigation###AgentSurveyAdd###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyAdd###002-Survey"
 
 #: ../content/index.rst:184 ../content/index.rst:188 ../content/index.rst:192
 #: ../content/index.rst:196 ../content/index.rst:200
@@ -355,190 +374,207 @@ msgstr "メインメニュー項目の登録。"
 
 #: ../content/index.rst:187
 msgid "Frontend::Navigation###AgentSurveyOverview###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyOverview###002-Survey"
 
 #: ../content/index.rst:191
 msgid "Frontend::Navigation###AgentSurveyEdit###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyEdit###002-Survey"
 
 #: ../content/index.rst:195
 msgid "Frontend::Navigation###AgentSurveyStats###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyStats###002-Survey"
 
 #: ../content/index.rst:199
 msgid "Frontend::Navigation###AgentSurveyZoom###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyZoom###002-Survey"
 
 #: ../content/index.rst:203
 msgid "Frontend::Agent::SurveyOverview"
-msgstr ""
+msgstr "Frontend::Agent::SurveyOverview"
 
 #: ../content/index.rst:206
 msgid "Survey::Frontend::Overview###Small"
-msgstr ""
+msgstr "Survey::Frontend::Overview###Small"
 
 #: ../content/index.rst:207
 msgid "Defines an overview module to show the small view of a survey list."
-msgstr ""
+msgstr "アンケート一覧を小サイズで表示する一覧モジュールを定義します。"
 
 #: ../content/index.rst:210
 msgid "Frontend::Agent::View::Preferences"
-msgstr ""
+msgstr "Frontend::Agent::View::Preferences"
 
 #: ../content/index.rst:213
 msgid "PreferencesGroups###SurveyOverviewSmallPageShown"
-msgstr ""
+msgstr "PreferencesGroups###SurveyOverviewSmallPageShown"
 
 #: ../content/index.rst:214
 msgid ""
 "Parameters for the pages (in which the surveys are shown) of the small "
 "survey overview."
-msgstr ""
+msgstr "アンケート一覧（小サイズ表示）の（アンケートを表示する）ページのパラメータ。"
 
 #: ../content/index.rst:217
 msgid "Frontend::Agent::View::SurveyOverview"
-msgstr ""
+msgstr "Frontend::Agent::View::SurveyOverview"
 
 #: ../content/index.rst:220
 msgid "Survey::Frontend::AgentSurveyOverview###ShowColumns"
-msgstr ""
+msgstr "Survey::Frontend::AgentSurveyOverview###ShowColumns"
 
 #: ../content/index.rst:221
 msgid ""
 "Defines the shown columns in the survey overview. This option has no effect "
 "on the position of the columns."
 msgstr ""
+"アンケート一覧に表示する列を定義します。このオプションは列の位置には影響しま"
+"せん。"
 
 #: ../content/index.rst:224
 msgid "Frontend::Agent::View::SurveyStats"
-msgstr ""
+msgstr "Frontend::Agent::View::SurveyStats"
 
 #: ../content/index.rst:227
 msgid "SurveyStats::ShowDelete"
-msgstr ""
+msgstr "SurveyStats::ShowDelete"
 
 #: ../content/index.rst:228
 msgid "Defines the groups (rw) which can delete survey stats."
-msgstr ""
+msgstr "アンケート統計を削除できるグループ（rw）を定義します。"
 
 #: ../content/index.rst:231
 msgid "Frontend::Agent::View::SurveyZoom"
-msgstr ""
+msgstr "Frontend::Agent::View::SurveyZoom"
 
 #: ../content/index.rst:234
 msgid "Survey::Frontend::HTMLRichTextHeightDefault"
-msgstr ""
+msgstr "Survey::Frontend::HTMLRichTextHeightDefault"
 
 #: ../content/index.rst:235
 msgid "Defines the default height for Richtext views for SurveyZoom elements."
-msgstr ""
+msgstr "SurveyZoom 要素のリッチテキスト表示のデフォルトの高さを定義します。"
 
 #: ../content/index.rst:238
 msgid "Survey::Frontend::HTMLRichTextHeightMax"
-msgstr ""
+msgstr "Survey::Frontend::HTMLRichTextHeightMax"
 
 #: ../content/index.rst:239
 msgid "Defines the maximum height for Richtext views for SurveyZoom elements."
-msgstr ""
+msgstr "SurveyZoom 要素のリッチテキスト表示の最大の高さを定義します。"
 
 #: ../content/index.rst:242
 msgid "Survey::Frontend::ChangeSurveyStatusGroups"
-msgstr ""
+msgstr "Survey::Frontend::ChangeSurveyStatusGroups"
 
 #: ../content/index.rst:243
 msgid ""
 "Defines groups which have a permission to change survey status. Array is "
 "empty by default and agents from all groups can change survey status."
 msgstr ""
+"アンケートのステータスを変更する権限を持つグループを定義します。デフォルトで"
+"は配列は空で、すべてのグループの担当者がアンケートのステータスを変更できます"
+"。"
 
 #: ../content/index.rst:246
 msgid "Frontend::Agent::View::SurveyZoom::MenuModule"
-msgstr ""
+msgstr "Frontend::Agent::View::SurveyZoom::MenuModule"
 
 #: ../content/index.rst:249
 msgid "Survey::Frontend::MenuModule###000-Back"
-msgstr ""
+msgstr "Survey::Frontend::MenuModule###000-Back"
 
 #: ../content/index.rst:250
 msgid ""
 "Shows a link in the menu to go back in the survey zoom view of the agent "
 "interface."
 msgstr ""
+"担当者インタフェースのアンケートズームビューで、前の画面に戻るためのリンクを"
+"メニューに表示します。"
 
 #: ../content/index.rst:253
 msgid "Survey::Frontend::MenuModule###010-EditGeneralInfo"
-msgstr ""
+msgstr "Survey::Frontend::MenuModule###010-EditGeneralInfo"
 
 #: ../content/index.rst:254
 msgid ""
 "Shows a link in the menu to edit a survey in its zoom view of the agent "
 "interface."
 msgstr ""
+"担当者インタフェースのアンケートズームビューで、アンケートを編集するための"
+"リンクをメニューに表示します。"
 
 #: ../content/index.rst:257
 msgid "Survey::Frontend::MenuModule###020-EditQuestions"
-msgstr ""
+msgstr "Survey::Frontend::MenuModule###020-EditQuestions"
 
 #: ../content/index.rst:258
 msgid ""
 "Shows a link in the menu to edit survey questions in its zoom view of the "
 "agent interface."
 msgstr ""
+"担当者インタフェースのアンケートズームビューで、アンケートの質問を編集するた"
+"めのリンクをメニューに表示します。"
 
 #: ../content/index.rst:261
 msgid "Survey::Frontend::MenuModule###030-StatsDetails"
-msgstr ""
+msgstr "Survey::Frontend::MenuModule###030-StatsDetails"
 
 #: ../content/index.rst:262
 msgid ""
 "Shows a link in the menu to zoom into the survey statistics details in its "
 "zoom view of the agent interface."
 msgstr ""
+"担当者インタフェースのアンケートズームビューで、アンケート統計の詳細を表示す"
+"るためのリンクをメニューに表示します。"
 
 #: ../content/index.rst:265
 msgid "Frontend::Public::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Public::ModuleRegistration"
 
 #: ../content/index.rst:268
 msgid "PublicFrontend::Module###PublicSurvey"
-msgstr ""
+msgstr "PublicFrontend::Module###PublicSurvey"
 
 #: ../content/index.rst:269
 msgid ""
 "Frontend module registration for the PublicSurvey object in the public "
 "Survey area."
 msgstr ""
+"公開アンケート領域の PublicSurvey オブジェクト用のフロントエンドモジュールの"
+"登録。"
 
 #: ../content/index.rst:272
 msgid "Loader::Module::PublicSurvey###002-Survey"
-msgstr ""
+msgstr "Loader::Module::PublicSurvey###002-Survey"
 
 #: ../content/index.rst:276
 msgid "About"
-msgstr ""
+msgstr "概要"
 
 #: ../content/index.rst:279
 msgid "Contact"
-msgstr ""
+msgstr "連絡先"
 
 #: ../content/index.rst:280
 msgid "Rother OSS GmbH"
-msgstr ""
+msgstr "Rother OSS GmbH"
 
 #: ../content/index.rst:281
 msgid "Email: hello@otobo.de"
-msgstr ""
+msgstr "メール: hello@otobo.de"
 
 #: ../content/index.rst:282
 msgid "Web: https://otobo.de"
-msgstr ""
+msgstr "Web: https://otobo.de"
 
 #: ../content/index.rst:285
 msgid "Version"
-msgstr ""
+msgstr "バージョン"
 
 #: ../content/index.rst:286
 msgid ""
 "Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
 "datestamp|"
 msgstr ""
+"作成者: |doc-vendor| / バージョン: |doc-version| / リリース日: |doc-"
+"datestamp|"
