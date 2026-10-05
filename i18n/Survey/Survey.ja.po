@@ -2,14 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
 "POT-Creation-Date: 2026-03-06 11:56+0000\n"
-"PO-Revision-Date: 2024-11-29 06:34+0000\n"
+"PO-Revision-Date: 2026-10-05 07:41+0000\n"
 "Last-Translator: Kozo Sakurai <sakurai@io-architect.com>\n"
-"Language-Team: Japanese <http://weblate.otobo.org/projects/opm-packages/"
-"survey/ja/>\n"
+"Language-Team: Japanese <http://translate.otobo.org/projects/otobo-11-1/"
+"addons/survey/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.9\n"
 
 #. Template: AgentSurveyAdd
 msgid "Create New Survey"
@@ -17,7 +19,7 @@ msgstr "新規アンケートの作成"
 
 #. Template: AgentSurveyAdd
 msgid "Introduction"
-msgstr "紹介文"
+msgstr "はじめに"
 
 #. Template: AgentSurveyAdd
 msgid "Survey Introduction"
@@ -474,54 +476,54 @@ msgstr "アンケート質問を編集するモジュール"
 
 #. SysConfig
 msgid "All parameters for the Survey object in the agent interface."
-msgstr ""
-"担当者インタフェースにおけるアンケート・オブジェクトに対する全てのパラメータ"
+msgstr "担当者インタフェースにおける Survey オブジェクトのすべてのパラメータ。"
 
 #. SysConfig
 msgid ""
 "Amount of days after sending a survey mail in which no new survey requests "
 "are sent to the same customer. Selecting 0 will always send the survey mail."
 msgstr ""
-"アンケートメールを送信した後、同じ顧客に新しい調査要求が送信されない日数。"
+"アンケートメールを送信してから、同じ顧客に新しいアンケート依頼を送信しない日"
+"数。0 を選択すると、常にアンケートメールが送信されます。"
 
 #. SysConfig
 msgid "Default body for the notification email to customers about new survey."
-msgstr "新しいアンケートについて顧客に通知するメールの本文のデフォルト"
+msgstr "新しいアンケートについて顧客に送信する通知メールのデフォルトの本文。"
 
 #. SysConfig
 msgid ""
 "Default sender for the notification email to customers about new survey."
-msgstr "新しいアンケートをについて顧客に通知するメールの送信者のデフォルト"
+msgstr "新しいアンケートについて顧客に送信する通知メールのデフォルトの送信者。"
 
 #. SysConfig
 msgid ""
 "Default subject for the notification email to customers about new survey."
-msgstr "新しいアンケートをについて顧客に通知するメールの件名のデフォルト"
+msgstr "新しいアンケートについて顧客に送信する通知メールのデフォルトの件名。"
 
 #. SysConfig
 msgid "Defines an overview module to show the small view of a survey list."
-msgstr "アンケート一覧(S)を表示するための一覧モジュールの定義"
+msgstr "アンケート一覧を小サイズで表示する一覧モジュールを定義します。"
 
 #. SysConfig
 msgid ""
 "Defines groups which have a permission to change survey status. Array is "
 "empty by default and agents from all groups can change survey status."
 msgstr ""
-"アンケートのステータスを変更する権限を持つグループを定義します。 アレイはデ"
-"フォルトでは空で、全てのグループの担当者がアンケートのステータスを変更できま"
-"す。"
+"アンケートのステータスを変更する権限を持つグループを定義します。デフォルトで"
+"は配列は空で、すべてのグループの担当者がアンケートのステータスを変更できます"
+"。"
 
 #. SysConfig
 msgid "Defines if survey requests will be only send to real customers."
-msgstr "アンケートが実際の顧客に送信されるかどうかを定義します。"
+msgstr "アンケート依頼を実在の顧客にのみ送信するかどうかを定義します。"
 
 #. SysConfig
 msgid ""
 "Defines maximum amount of surveys that get sent to a customer per 30 days. "
 "( 0 means no maximum, all survey requests will be sent)."
 msgstr ""
-"30日の間に顧客に送信する調査の最大数を定義します。(0は無制限を意味し、全ての"
-"調査要求が送信されます)"
+"30日間に1人の顧客に送信するアンケートの最大数を定義します（0 は上限なしで、す"
+"べてのアンケート依頼が送信されます）。"
 
 #. SysConfig
 msgid ""
@@ -530,24 +532,23 @@ msgid ""
 "sending is done by the OTOBO Daemon, prior activation of "
 "'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend' setting."
 msgstr ""
-"アンケートの送信をトリガーするためにチケットをクローズする時間数を定義します"
-"（0はクローズ直後に送信されます）。 注：遅延アンケート送信は、OTOBOデーモンに"
-"よって実行され、事前に 'Daemon :: SchedulerCronTaskManager :: Task ### "
-"SurveyRequestsSend'の設定が有効になっています。"
+"アンケートの送信をトリガーするために、チケットがクローズされてから経過してい"
+"る必要がある時間数を定義します（0 はクローズ直後に送信）。注意: 遅延送信は "
+"OTOBO デーモンによって行われるため、事前に "
+"'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend' 設定を有効にし"
+"てください。"
 
 #. SysConfig
 msgid ""
 "Defines the columns for the dropdown list for building send conditions (0 => "
 "inactive, 1 => active)."
 msgstr ""
-"送信条件を作成するためのドロップダウンリストの列を定義します。（0 =>無効、1 "
-"=>有効）"
+"送信条件を作成するためのドロップダウンリストの列を定義します（0 => 無効、1 "
+"=> 有効）。"
 
 #. SysConfig
 msgid "Defines the default height for Richtext views for SurveyZoom elements."
-msgstr ""
-"調査拡大画面の要素に対してリッチテキストに対するデフォルトの高さを定義しま"
-"す。"
+msgstr "SurveyZoom 要素のリッチテキスト表示のデフォルトの高さを定義します。"
 
 #. SysConfig
 msgid "Defines the groups (rw) which can delete survey stats."
@@ -555,19 +556,19 @@ msgstr "アンケート統計を削除できるグループ（rw）を定義し�
 
 #. SysConfig
 msgid "Defines the maximum height for Richtext views for SurveyZoom elements."
-msgstr "SurveyZoom要素のリッチテキストビューの最大高さを定義します。"
+msgstr "SurveyZoom 要素のリッチテキスト表示の最大の高さを定義します。"
 
 #. SysConfig
 msgid ""
 "Defines the shown columns in the survey overview. This option has no effect "
 "on the position of the columns."
 msgstr ""
-"アンケート一覧で表示される列数を定義します。このオプションは列の位置には作用"
-"しません。"
+"アンケート一覧に表示する列を定義します。このオプションは列の位置には影響しま"
+"せん。"
 
 #. SysConfig
 msgid "Determines if the statistics module may generate survey lists."
-msgstr "統計モジュールが調査リストを生成するかどうかを決定します。"
+msgstr "統計モジュールでアンケートの一覧を生成できるかどうかを決定します。"
 
 #. SysConfig
 msgid "Edit survey general information."
@@ -583,47 +584,45 @@ msgid ""
 "data of a specific survey result when the customer tries to answer a survey "
 "the second time."
 msgstr ""
-"公開インターフェースにおいて、顧客が2度回答しようとした際に、これまでの回答"
-"データを表示するShowVoteData画面を有効にするか否かを設定します。"
+"顧客が同じアンケートに2回目の回答をしようとした場合に、特定のアンケート結果の"
+"データを表示する公開インタフェースの ShowVoteData 画面を有効または無効にしま"
+"す。"
 
 #. SysConfig
 msgid "Enable or disable the send condition check for the service."
-msgstr "サービスの送信条件を有効または無効にする。"
+msgstr "サービスについての送信条件チェックを有効または無効にします。"
 
 #. SysConfig
 msgid "Enable or disable the send condition check for the ticket type."
-msgstr "ティケットタイプの送信条件を有効または無効にする。"
+msgstr "チケットタイプについての送信条件チェックを有効または無効にします。"
 
 #. SysConfig
 msgid "Frontend module registration for survey add in the agent interface."
-msgstr "担当者インタフェースの統計フロントエンド・モジュールの登録です。"
+msgstr "担当者インタフェースのアンケート追加用のフロントエンドモジュールの登録。"
 
 #. SysConfig
 msgid "Frontend module registration for survey edit in the agent interface."
-msgstr ""
-"担当者インタフェースの統計の変更画面フロントエンド・モジュールの登録です。"
+msgstr "担当者インタフェースのアンケート編集用のフロントエンドモジュールの登録。"
 
 #. SysConfig
 msgid "Frontend module registration for survey stats in the agent interface."
-msgstr "担当者インタフェースの統計状況フロントエンド・モジュールの登録です。"
+msgstr "担当者インタフェースのアンケート統計用のフロントエンドモジュールの登録。"
 
 #. SysConfig
 msgid "Frontend module registration for survey zoom in the agent interface."
-msgstr ""
-"担当者インターフェースの調査拡大に対するフロントエンド・モジュールの登録で"
-"す。"
+msgstr "担当者インタフェースのアンケートズーム用のフロントエンドモジュールの登録。"
 
 #. SysConfig
 msgid ""
 "Frontend module registration for the PublicSurvey object in the public "
 "Survey area."
 msgstr ""
-"公開インターフェースのPublicSurveyオブジェクトに対するフロントエンド・モ"
-"ジュールの登録です。"
+"公開アンケート領域の PublicSurvey オブジェクト用のフロントエンドモジュールの"
+"登録。"
 
 #. SysConfig
 msgid "If this regex matches, no customer survey will be sent."
-msgstr "この正規表現にマッチする場合、調査は顧客に送信されません。"
+msgstr "この正規表現に一致する場合、顧客アンケートは送信されません。"
 
 #. SysConfig
 msgid "Limit."
@@ -633,8 +632,7 @@ msgstr "リミット"
 msgid ""
 "Parameters for the pages (in which the surveys are shown) of the small "
 "survey overview."
-msgstr ""
-"アンケート一覧 (Small) の (アンケートが表示される) ページに対するパラメータ"
+msgstr "アンケート一覧（小サイズ表示）の（アンケートを表示する）ページのパラメータ。"
 
 #. SysConfig
 msgid "Public Survey."
@@ -648,40 +646,41 @@ msgid ""
 "delete results done by the OTOBO Daemon, prior activation of "
 "'Task###SurveyRequestsDelete' setting."
 msgstr ""
-"設定された日数より古い結果は削除されます。 注： 'Task ### "
-"SurveyRequestsDelete'設定を有効にする前に、OTOBOデーモンによって行われた結果"
-"を削除して下さい。"
+"設定した日数より古い結果は削除されます。注意: 結果の削除は OTOBO デーモンによ"
+"って行われるため、事前に 'Task###SurveyRequestsDelete' 設定を有効にしてくださ"
+"い。"
 
 #. SysConfig
 msgid ""
 "Shows a link in the menu to edit a survey in its zoom view of the agent "
 "interface."
 msgstr ""
-"担当者インタフェースの統計ズームビューで編集リンクをメニューを表示する。"
+"担当者インタフェースのアンケートズームビューで、アンケートを編集するための"
+"リンクをメニューに表示します。"
 
 #. SysConfig
 msgid ""
 "Shows a link in the menu to edit survey questions in its zoom view of the "
 "agent interface."
 msgstr ""
-"担当者インタフェースの統計質問ズームビューでの編集リンクをメニューに表示す"
-"る。"
+"担当者インタフェースのアンケートズームビューで、アンケートの質問を編集するた"
+"めのリンクをメニューに表示します。"
 
 #. SysConfig
 msgid ""
 "Shows a link in the menu to go back in the survey zoom view of the agent "
 "interface."
 msgstr ""
-"担当者インタフェースのズームビューで表示している統計の編集リンクをメニューを"
-"表示する。"
+"担当者インタフェースのアンケートズームビューで、前の画面に戻るためのリンクを"
+"メニューに表示します。"
 
 #. SysConfig
 msgid ""
 "Shows a link in the menu to zoom into the survey statistics details in its "
 "zoom view of the agent interface."
 msgstr ""
-"担当者インタフェースのズームビューで表示している統計の編集リンクをメニューを"
-"表示する。"
+"担当者インタフェースのアンケートズームビューで、アンケート統計の詳細を表示す"
+"るためのリンクをメニューに表示します。"
 
 #. SysConfig
 msgid "Stats Details"
@@ -713,29 +712,28 @@ msgstr "アンケートの一覧「小」に関する1ページあたりのア�
 
 #. SysConfig
 msgid "Surveys will not be sent to the configured email addresses."
-msgstr "アンケートは設定された電子メールアドレスには送信されません。"
+msgstr "設定したメールアドレスにはアンケートは送信されません。"
 
 #. SysConfig
 msgid ""
 "The identifier for a survey, e.g. Survey#, MySurvey#. The default is Survey#."
-msgstr ""
-"例えばSurvey#, MySurvey#などのチケットの識別子です。デフォルトはSurvey#です。"
+msgstr "アンケートの識別子（例: Survey#、MySurvey#）。デフォルトは Survey# です。"
 
 #. SysConfig
 msgid ""
 "Ticket event module to send automatically survey email requests to customers "
 "if a ticket is closed."
 msgstr ""
-"チケットが完了した際に、顧客に自動的に調査メールを送信するチケットイベントモ"
-"ジュール。"
+"チケットがクローズされたときに、顧客にアンケート依頼メールを自動送信する"
+"チケットイベントモジュール。"
 
 #. SysConfig
 msgid "Trigger delete results (including vote data and requests)."
-msgstr "（投票データとリクエストを含む）結果を削除する。"
+msgstr "結果（投票データと依頼を含む）の削除をトリガーします。"
 
 #. SysConfig
 msgid "Trigger sending delayed survey requests."
-msgstr "追ってのアンケート要求を送信するトリガ"
+msgstr "遅延したアンケート依頼の送信をトリガーします。"
 
 #. SysConfig
 msgid "Zoom into statistics details."
