@@ -25,7 +25,7 @@ sub Data {
 
     # Template: AgentSurveyAdd
     $Self->{Translation}->{'Create New Survey'} = '新規アンケートの作成';
-    $Self->{Translation}->{'Introduction'} = '紹介文';
+    $Self->{Translation}->{'Introduction'} = 'はじめに';
     $Self->{Translation}->{'Survey Introduction'} = 'アンケートの紹介文';
     $Self->{Translation}->{'Notification Body'} = '通知の本文';
     $Self->{Translation}->{'Internal Description'} = '内部向け説明';
@@ -175,68 +175,68 @@ sub Data {
     $Self->{Translation}->{'A Survey Module.'} = 'アンケート・モジュール';
     $Self->{Translation}->{'A module to edit survey questions.'} = 'アンケート質問を編集するモジュール';
     $Self->{Translation}->{'All parameters for the Survey object in the agent interface.'} =
-        '担当者インタフェースにおけるアンケート・オブジェクトに対する全てのパラメータ';
+        '担当者インタフェースにおける Survey オブジェクトのすべてのパラメータ。';
     $Self->{Translation}->{'Amount of days after sending a survey mail in which no new survey requests are sent to the same customer. Selecting 0 will always send the survey mail.'} =
-        'アンケートメールを送信した後、同じ顧客に新しい調査要求が送信されない日数。';
+        'アンケートメールを送信してから、同じ顧客に新しいアンケート依頼を送信しない日数。0 を選択すると、常にアンケートメールが送信されます。';
     $Self->{Translation}->{'Default body for the notification email to customers about new survey.'} =
-        '新しいアンケートについて顧客に通知するメールの本文のデフォルト';
+        '新しいアンケートについて顧客に送信する通知メールのデフォルトの本文。';
     $Self->{Translation}->{'Default sender for the notification email to customers about new survey.'} =
-        '新しいアンケートをについて顧客に通知するメールの送信者のデフォルト';
+        '新しいアンケートについて顧客に送信する通知メールのデフォルトの送信者。';
     $Self->{Translation}->{'Default subject for the notification email to customers about new survey.'} =
-        '新しいアンケートをについて顧客に通知するメールの件名のデフォルト';
+        '新しいアンケートについて顧客に送信する通知メールのデフォルトの件名。';
     $Self->{Translation}->{'Defines an overview module to show the small view of a survey list.'} =
-        'アンケート一覧(S)を表示するための一覧モジュールの定義';
+        'アンケート一覧を小サイズで表示する一覧モジュールを定義します。';
     $Self->{Translation}->{'Defines groups which have a permission to change survey status. Array is empty by default and agents from all groups can change survey status.'} =
-        'アンケートのステータスを変更する権限を持つグループを定義します。 アレイはデフォルトでは空で、全てのグループの担当者がアンケートのステータスを変更できます。';
+        'アンケートのステータスを変更する権限を持つグループを定義します。デフォルトでは配列は空で、すべてのグループの担当者がアンケートのステータスを変更できます。';
     $Self->{Translation}->{'Defines if survey requests will be only send to real customers.'} =
-        'アンケートが実際の顧客に送信されるかどうかを定義します。';
+        'アンケート依頼を実在の顧客にのみ送信するかどうかを定義します。';
     $Self->{Translation}->{'Defines maximum amount of surveys that get sent to a customer per 30 days. ( 0 means no maximum, all survey requests will be sent).'} =
-        '30日の間に顧客に送信する調査の最大数を定義します。(0は無制限を意味し、全ての調査要求が送信されます)';
+        '30日間に1人の顧客に送信するアンケートの最大数を定義します（0 は上限なしで、すべてのアンケート依頼が送信されます）。';
     $Self->{Translation}->{'Defines the amount in hours a ticket has to be closed to trigger the sending of a survey, ( 0 means send immediately after close ). Note: delayed survey sending is done by the OTOBO Daemon, prior activation of \'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend\' setting.'} =
-        'アンケートの送信をトリガーするためにチケットをクローズする時間数を定義します（0はクローズ直後に送信されます）。 注：遅延アンケート送信は、OTOBOデーモンによって実行され、事前に \'Daemon :: SchedulerCronTaskManager :: Task ### SurveyRequestsSend\'の設定が有効になっています。';
+        'アンケートの送信をトリガーするために、チケットがクローズされてから経過している必要がある時間数を定義します（0 はクローズ直後に送信）。注意: 遅延送信は OTOBO デーモンによって行われるため、事前に \'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend\' 設定を有効にしてください。';
     $Self->{Translation}->{'Defines the columns for the dropdown list for building send conditions (0 => inactive, 1 => active).'} =
-        '送信条件を作成するためのドロップダウンリストの列を定義します。（0 =>無効、1 =>有効）';
+        '送信条件を作成するためのドロップダウンリストの列を定義します（0 => 無効、1 => 有効）。';
     $Self->{Translation}->{'Defines the default height for Richtext views for SurveyZoom elements.'} =
-        '調査拡大画面の要素に対してリッチテキストに対するデフォルトの高さを定義します。';
+        'SurveyZoom 要素のリッチテキスト表示のデフォルトの高さを定義します。';
     $Self->{Translation}->{'Defines the groups (rw) which can delete survey stats.'} = 'アンケート統計を削除できるグループ（rw）を定義します。';
     $Self->{Translation}->{'Defines the maximum height for Richtext views for SurveyZoom elements.'} =
-        'SurveyZoom要素のリッチテキストビューの最大高さを定義します。';
+        'SurveyZoom 要素のリッチテキスト表示の最大の高さを定義します。';
     $Self->{Translation}->{'Defines the shown columns in the survey overview. This option has no effect on the position of the columns.'} =
-        'アンケート一覧で表示される列数を定義します。このオプションは列の位置には作用しません。';
+        'アンケート一覧に表示する列を定義します。このオプションは列の位置には影響しません。';
     $Self->{Translation}->{'Determines if the statistics module may generate survey lists.'} =
-        '統計モジュールが調査リストを生成するかどうかを決定します。';
+        '統計モジュールでアンケートの一覧を生成できるかどうかを決定します。';
     $Self->{Translation}->{'Edit survey general information.'} = 'アンケート一般情報を編集';
     $Self->{Translation}->{'Edit survey questions.'} = 'アンケートの質問を修正';
     $Self->{Translation}->{'Enable or disable the ShowVoteData screen in the public interface to show data of a specific survey result when the customer tries to answer a survey the second time.'} =
-        '公開インターフェースにおいて、顧客が2度回答しようとした際に、これまでの回答データを表示するShowVoteData画面を有効にするか否かを設定します。';
-    $Self->{Translation}->{'Enable or disable the send condition check for the service.'} = 'サービスの送信条件を有効または無効にする。';
+        '顧客が同じアンケートに2回目の回答をしようとした場合に、特定のアンケート結果のデータを表示する公開インタフェースの ShowVoteData 画面を有効または無効にします。';
+    $Self->{Translation}->{'Enable or disable the send condition check for the service.'} = 'サービスについての送信条件チェックを有効または無効にします。';
     $Self->{Translation}->{'Enable or disable the send condition check for the ticket type.'} =
-        'ティケットタイプの送信条件を有効または無効にする。';
+        'チケットタイプについての送信条件チェックを有効または無効にします。';
     $Self->{Translation}->{'Frontend module registration for survey add in the agent interface.'} =
-        '担当者インタフェースの統計フロントエンド・モジュールの登録です。';
+        '担当者インタフェースのアンケート追加用のフロントエンドモジュールの登録。';
     $Self->{Translation}->{'Frontend module registration for survey edit in the agent interface.'} =
-        '担当者インタフェースの統計の変更画面フロントエンド・モジュールの登録です。';
+        '担当者インタフェースのアンケート編集用のフロントエンドモジュールの登録。';
     $Self->{Translation}->{'Frontend module registration for survey stats in the agent interface.'} =
-        '担当者インタフェースの統計状況フロントエンド・モジュールの登録です。';
+        '担当者インタフェースのアンケート統計用のフロントエンドモジュールの登録。';
     $Self->{Translation}->{'Frontend module registration for survey zoom in the agent interface.'} =
-        '担当者インターフェースの調査拡大に対するフロントエンド・モジュールの登録です。';
+        '担当者インタフェースのアンケートズーム用のフロントエンドモジュールの登録。';
     $Self->{Translation}->{'Frontend module registration for the PublicSurvey object in the public Survey area.'} =
-        '公開インターフェースのPublicSurveyオブジェクトに対するフロントエンド・モジュールの登録です。';
-    $Self->{Translation}->{'If this regex matches, no customer survey will be sent.'} = 'この正規表現にマッチする場合、調査は顧客に送信されません。';
+        '公開アンケート領域の PublicSurvey オブジェクト用のフロントエンドモジュールの登録。';
+    $Self->{Translation}->{'If this regex matches, no customer survey will be sent.'} = 'この正規表現に一致する場合、顧客アンケートは送信されません。';
     $Self->{Translation}->{'Limit.'} = 'リミット';
     $Self->{Translation}->{'Parameters for the pages (in which the surveys are shown) of the small survey overview.'} =
-        'アンケート一覧 (Small) の (アンケートが表示される) ページに対するパラメータ';
+        'アンケート一覧（小サイズ表示）の（アンケートを表示する）ページのパラメータ。';
     $Self->{Translation}->{'Public Survey.'} = '公開インターフェースのPublicSurveyオブジェクトに対するフロントエンドモジュール登録です。';
     $Self->{Translation}->{'Results older than the configured amount of days will be deleted. Note: delete results done by the OTOBO Daemon, prior activation of \'Task###SurveyRequestsDelete\' setting.'} =
-        '設定された日数より古い結果は削除されます。 注： \'Task ### SurveyRequestsDelete\'設定を有効にする前に、OTOBOデーモンによって行われた結果を削除して下さい。';
+        '設定した日数より古い結果は削除されます。注意: 結果の削除は OTOBO デーモンによって行われるため、事前に \'Task###SurveyRequestsDelete\' 設定を有効にしてください。';
     $Self->{Translation}->{'Shows a link in the menu to edit a survey in its zoom view of the agent interface.'} =
-        '担当者インタフェースの統計ズームビューで編集リンクをメニューを表示する。';
+        '担当者インタフェースのアンケートズームビューで、アンケートを編集するためのリンクをメニューに表示します。';
     $Self->{Translation}->{'Shows a link in the menu to edit survey questions in its zoom view of the agent interface.'} =
-        '担当者インタフェースの統計質問ズームビューでの編集リンクをメニューに表示する。';
+        '担当者インタフェースのアンケートズームビューで、アンケートの質問を編集するためのリンクをメニューに表示します。';
     $Self->{Translation}->{'Shows a link in the menu to go back in the survey zoom view of the agent interface.'} =
-        '担当者インタフェースのズームビューで表示している統計の編集リンクをメニューを表示する。';
+        '担当者インタフェースのアンケートズームビューで、前の画面に戻るためのリンクをメニューに表示します。';
     $Self->{Translation}->{'Shows a link in the menu to zoom into the survey statistics details in its zoom view of the agent interface.'} =
-        '担当者インタフェースのズームビューで表示している統計の編集リンクをメニューを表示する。';
+        '担当者インタフェースのアンケートズームビューで、アンケート統計の詳細を表示するためのリンクをメニューに表示します。';
     $Self->{Translation}->{'Stats Details'} = '統計の詳細';
     $Self->{Translation}->{'Survey Add Module.'} = 'アンケートモジュール追加';
     $Self->{Translation}->{'Survey Edit Module.'} = 'アンケート編集モジュール';
@@ -244,13 +244,13 @@ sub Data {
     $Self->{Translation}->{'Survey Stats Module.'} = 'アンケート統計モジュール';
     $Self->{Translation}->{'Survey Zoom Module.'} = 'アンケート・ズーム・モジュール';
     $Self->{Translation}->{'Survey limit per page for Survey Overview "Small".'} = 'アンケートの一覧「小」に関する1ページあたりのアンケートの上限';
-    $Self->{Translation}->{'Surveys will not be sent to the configured email addresses.'} = 'アンケートは設定された電子メールアドレスには送信されません。';
+    $Self->{Translation}->{'Surveys will not be sent to the configured email addresses.'} = '設定したメールアドレスにはアンケートは送信されません。';
     $Self->{Translation}->{'The identifier for a survey, e.g. Survey#, MySurvey#. The default is Survey#.'} =
-        '例えばSurvey#, MySurvey#などのチケットの識別子です。デフォルトはSurvey#です。';
+        'アンケートの識別子（例: Survey#、MySurvey#）。デフォルトは Survey# です。';
     $Self->{Translation}->{'Ticket event module to send automatically survey email requests to customers if a ticket is closed.'} =
-        'チケットが完了した際に、顧客に自動的に調査メールを送信するチケットイベントモジュール。';
-    $Self->{Translation}->{'Trigger delete results (including vote data and requests).'} = '（投票データとリクエストを含む）結果を削除する。';
-    $Self->{Translation}->{'Trigger sending delayed survey requests.'} = '追ってのアンケート要求を送信するトリガ';
+        'チケットがクローズされたときに、顧客にアンケート依頼メールを自動送信するチケットイベントモジュール。';
+    $Self->{Translation}->{'Trigger delete results (including vote data and requests).'} = '結果（投票データと依頼を含む）の削除をトリガーします。';
+    $Self->{Translation}->{'Trigger sending delayed survey requests.'} = '遅延したアンケート依頼の送信をトリガーします。';
     $Self->{Translation}->{'Zoom into statistics details.'} = '統計情報の詳細をズームインする。';
 
 
