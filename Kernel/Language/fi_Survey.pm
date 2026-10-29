@@ -25,6 +25,7 @@ sub Data {
 
     # Template: AgentSurveyAdd
     $Self->{Translation}->{'Create New Survey'} = 'Luo uusi kysely';
+    $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = '';
     $Self->{Translation}->{'Introduction'} = 'Esittely';
     $Self->{Translation}->{'Survey Introduction'} = 'Kyselyn esittely';
     $Self->{Translation}->{'Notification Body'} = 'Muistutuksen viesti';

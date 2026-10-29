@@ -25,6 +25,7 @@ sub Data {
 
     # Template: AgentSurveyAdd
     $Self->{Translation}->{'Create New Survey'} = 'Tengeneza tafiti mpya';
+    $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = '';
     $Self->{Translation}->{'Introduction'} = 'Utangulizi';
     $Self->{Translation}->{'Survey Introduction'} = 'Utangulizi wa tafiti';
     $Self->{Translation}->{'Notification Body'} = 'Kiini cha taarifa';

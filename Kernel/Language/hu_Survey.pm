@@ -25,6 +25,7 @@ sub Data {
 
     # Template: AgentSurveyAdd
     $Self->{Translation}->{'Create New Survey'} = 'Új kérdőív létrehozása';
+    $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = '';
     $Self->{Translation}->{'Introduction'} = 'Bevezetés';
     $Self->{Translation}->{'Survey Introduction'} = 'Kérdőív bevezetése';
     $Self->{Translation}->{'Notification Body'} = 'Értesítés törzse';
