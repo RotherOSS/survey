@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Survey\n"
 "POT-Creation-Date: 2026-03-06 11:56+0000\n"
-"PO-Revision-Date: 2026-09-03 18:41+0000\n"
+"PO-Revision-Date: 2026-10-29 20:41+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-0/"
 "addons/survey/hu/>\n"
@@ -347,8 +347,7 @@ msgstr "Statisztikák áttekintője"
 
 #. Perl Module: Kernel/Modules/AgentSurveyStats.pm
 msgid "You have no permission for this survey or stats detail!"
-msgstr ""
-"Nincs jogosultsága ehhez a kérdőívhez vagy a statisztikák részleteihez!"
+msgstr "Nincs jogosultsága ehhez a kérdőívhez vagy a statisztikák részleteihez!"
 
 #. Perl Module: Kernel/Modules/AgentSurveyStats.pm
 msgid "Stats Detail"
@@ -683,8 +682,8 @@ msgid ""
 "'Task###SurveyRequestsDelete' setting."
 msgstr ""
 "A beállított napok számánál régebbi eredmények törlésre kerülnek. "
-"Megjegyzés: az eredmények törlését az OTOBO démon végzi el a "
-"„Task###SurveyRequestsDelete” beállítás előzetes bekapcsolása után."
+"Megjegyzés: az eredmények törlését az OTOBO démon végzi el a „"
+"Task###SurveyRequestsDelete” beállítás előzetes bekapcsolása után."
 
 #. SysConfig
 msgid ""
