@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 14:58+0200\n"
-"PO-Revision-Date: 2026-09-03 18:41+0000\n"
+"PO-Revision-Date: 2026-10-29 19:41+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <http://translate.otobo.org/projects/otobo-11-0/"
 "addons/manuals/survey-documentation/hu/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../content/index.rst:16
 msgid "Sacrifice to Sphinx"
-msgstr ""
+msgstr "Áldozat a Szfinxnek"
 
 #: ../../content/index.rst:19
 msgid "Description"
@@ -31,7 +31,7 @@ msgstr "Leírás"
 
 #: ../../content/index.rst:20
 msgid "A customer survey tool."
-msgstr ""
+msgstr "Egy ügyfélkérdőív eszköz."
 
 #: ../../content/index.rst:23
 msgid "System requirements"
@@ -71,17 +71,19 @@ msgstr "Beállítások hivatkozása"
 
 #: ../../content/index.rst:47
 msgid "Core::Event::Survey"
-msgstr ""
+msgstr "Core::Event::Survey"
 
 #: ../../content/index.rst:50
 msgid "Ticket::EventModulePost###99-SurveySendRequest"
-msgstr ""
+msgstr "Ticket::EventModulePost###99-SurveySendRequest"
 
 #: ../../content/index.rst:51
 msgid ""
 "Ticket event module to send automatically survey email requests to "
 "customers if a ticket is closed."
 msgstr ""
+"Jegy esemény modul automatikus kérdőív e-mail kérések küldéséhez az "
+"ügyfeleknek, ha egy jegy le van zárva."
 
 #: ../../content/index.rst:54
 msgid "Core::Stats"
@@ -89,19 +91,19 @@ msgstr "Core::Stats"
 
 #: ../../content/index.rst:57
 msgid "Stats::DynamicObjectRegistration###SurveyList"
-msgstr ""
+msgstr "Stats::DynamicObjectRegistration###SurveyList"
 
 #: ../../content/index.rst:58
 msgid "Determines if the statistics module may generate survey lists."
-msgstr ""
+msgstr "Meghatározza, hogy a statisztika modul előállíthat-e kérdőívlistákat."
 
 #: ../../content/index.rst:61
 msgid "Core::Survey"
-msgstr ""
+msgstr "Core::Survey"
 
 #: ../../content/index.rst:64
 msgid "Survey::ShowVoteData"
-msgstr ""
+msgstr "Survey::ShowVoteData"
 
 #: ../../content/index.rst:65
 msgid ""
@@ -109,10 +111,13 @@ msgid ""
 " data of a specific survey result when the customer tries to answer a "
 "survey the second time."
 msgstr ""
+"A szavazási adatok megjelenítése képernyő engedélyezése vagy letiltása a "
+"nyilvános felületen egy adott kérdőíveredmény adatainak megjelenítéséhez, "
+"amikor az ügyfél másodszor próbál meg válaszolni a kérdőívre."
 
 #: ../../content/index.rst:68
 msgid "Survey::SendPeriod"
-msgstr ""
+msgstr "Survey::SendPeriod"
 
 #: ../../content/index.rst:69
 msgid ""
@@ -120,10 +125,13 @@ msgid ""
 "requests are sent to the same customer. Selecting 0 will always send the "
 "survey mail."
 msgstr ""
+"A napok száma egy olyan kérdőív levél kiküldése után, amelyben nincsenek új "
+"kérdőív kérések elküldve ugyanannak az ügyfélnek. A 0 választása mindig el "
+"fogja küldeni a kérdőív levelet."
 
 #: ../../content/index.rst:72
 msgid "Survey::DeletePeriod"
-msgstr ""
+msgstr "Survey::DeletePeriod"
 
 #: ../../content/index.rst:73
 msgid ""
@@ -131,66 +139,81 @@ msgid ""
 "delete results done by the OTOBO Daemon, prior activation of "
 "'Task###SurveyRequestsDelete' setting."
 msgstr ""
+"A beállított napok számánál régebbi eredmények törlésre kerülnek. "
+"Megjegyzés: az eredmények törlését az OTOBO démon végzi el a „"
+"Task###SurveyRequestsDelete” beállítás előzetes bekapcsolása után."
 
 #: ../../content/index.rst:76
 msgid "Survey::CheckSendConditionTicketType"
-msgstr ""
+msgstr "Survey::CheckSendConditionTicketType"
 
 #: ../../content/index.rst:77
 msgid "Enable or disable the send condition check for the ticket type."
 msgstr ""
+"A küldési feltétel ellenőrzésének engedélyezése vagy letiltása a "
+"jegytípusnál."
 
 #: ../../content/index.rst:80
 msgid "Survey::CheckSendConditionService"
-msgstr ""
+msgstr "Survey::CheckSendConditionService"
 
 #: ../../content/index.rst:81
 msgid "Enable or disable the send condition check for the service."
 msgstr ""
+"A küldési feltétel ellenőrzésének engedélyezése vagy letiltása a "
+"szolgáltatásnál."
 
 #: ../../content/index.rst:84
 msgid "Survey::NotificationSender"
-msgstr ""
+msgstr "Survey::NotificationSender"
 
 #: ../../content/index.rst:85
 msgid "Default sender for the notification email to customers about new survey."
 msgstr ""
+"Az ügyfeleknek az új kérdőívvel kapcsolatban elküldött értesítő e-mail "
+"alapértelmezett küldője."
 
 #: ../../content/index.rst:88
 msgid "Survey::NotificationRecipientBlacklist"
-msgstr ""
+msgstr "Survey::NotificationRecipientBlacklist"
 
 #: ../../content/index.rst:89
 msgid "Surveys will not be sent to the configured email addresses."
-msgstr ""
+msgstr "A kérdőívek nem kerülnek elküldésre a beállított e-mail címekre."
 
 #: ../../content/index.rst:92
 msgid "Survey::NotificationSubject"
-msgstr ""
+msgstr "Survey::NotificationSubject"
 
 #: ../../content/index.rst:93
 msgid "Default subject for the notification email to customers about new survey."
 msgstr ""
+"Az ügyfeleknek az új kérdőívvel kapcsolatban elküldött értesítő e-mail "
+"alapértelmezett tárgya."
 
 #: ../../content/index.rst:96
 msgid "Survey::NotificationBody"
-msgstr ""
+msgstr "Survey::NotificationBody"
 
 #: ../../content/index.rst:97
 msgid "Default body for the notification email to customers about new survey."
 msgstr ""
+"Az ügyfeleknek az új kérdőívvel kapcsolatban elküldött értesítő e-mail "
+"alapértelmezett törzse."
 
 #: ../../content/index.rst:100
 msgid "Survey::SendNoSurveyRegExp"
-msgstr ""
+msgstr "Survey::SendNoSurveyRegExp"
 
 #: ../../content/index.rst:101
 msgid "If this regex matches, no customer survey will be sent."
 msgstr ""
+"Ha ez a reguláris kifejezés illeszkedik, akkor az ügyfélkérdőív nem kerül "
+"kiküldésre."
 
 #: ../../content/index.rst:104
 msgid "Survey::SendInHoursAfterClose"
-msgstr ""
+msgstr "Survey::SendInHoursAfterClose"
 
 #: ../../content/index.rst:105
 msgid ""
@@ -199,44 +222,58 @@ msgid ""
 "delayed survey sending is done by the OTOBO Daemon, prior activation of "
 "'Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend' setting."
 msgstr ""
+"Meghatározza azt a mennyiséget órában, amíg a jegyet le kell zárni, hogy "
+"aktiválja a kérdőív kiküldését (a 0 jelentése, hogy azonnal küldje a lezárás "
+"után). Megjegyzés: a késleltetett kérdőív kiküldését az OTOBO démon végzi el "
+"a „Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend” beállítás "
+"előzetes bekapcsolása után."
 
 #: ../../content/index.rst:108
 msgid "Survey::AmountOfSurveysPer30Days"
-msgstr ""
+msgstr "Survey::AmountOfSurveysPer30Days"
 
 #: ../../content/index.rst:109
 msgid ""
 "Defines maximum amount of surveys that get sent to a customer per 30 "
 "days. ( 0 means no maximum, all survey requests will be sent)."
 msgstr ""
+"Meghatározza a kérdőívek legnagyobb mennyiségét, amelyet 30 naponta "
+"elküldhetnek egy ügyfélnek (a 0 azt jelenti, hogy nincs maximum, minden "
+"kérdőív kérés elküldésre kerül)."
 
 #: ../../content/index.rst:112
 msgid "Survey::Hook"
-msgstr ""
+msgstr "Survey::Hook"
 
 #: ../../content/index.rst:113
 msgid ""
 "The identifier for a survey, e.g. Survey#, MySurvey#. The default is "
 "Survey#."
 msgstr ""
+"Egy kérdőív azonosítója, például Survey#, MySurvey#. Az alapértelmezett: "
+"Survey#."
 
 #: ../../content/index.rst:116
 msgid "Survey::CheckSendConditionCustomerFields"
-msgstr ""
+msgstr "Survey::CheckSendConditionCustomerFields"
 
 #: ../../content/index.rst:117
 msgid ""
 "Defines the columns for the dropdown list for building send conditions (0"
 " => inactive, 1 => active)."
 msgstr ""
+"Meghatározza az oszlopokat a legördülő listánál a küldési feltételek "
+"összeállításához (0 => inaktív, 1 => aktív)."
 
 #: ../../content/index.rst:120
 msgid "Survey::SendOnlyToRealCustomer"
-msgstr ""
+msgstr "Survey::SendOnlyToRealCustomer"
 
 #: ../../content/index.rst:121
 msgid "Defines if survey requests will be only send to real customers."
 msgstr ""
+"Meghatározza, hogy a kérdőív kérések csak valódi ügyfeleknek legyenek "
+"kiküldve."
 
 #: ../../content/index.rst:124
 msgid "Daemon::SchedulerCronTaskManager::Task"
@@ -244,19 +281,20 @@ msgstr "Daemon::SchedulerCronTaskManager::Task"
 
 #: ../../content/index.rst:127
 msgid "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend"
-msgstr ""
+msgstr "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsSend"
 
 #: ../../content/index.rst:128
 msgid "Trigger sending delayed survey requests."
-msgstr ""
+msgstr "Késleltetett kérdőívkérések küldésének aktiválása."
 
 #: ../../content/index.rst:131
 msgid "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsDelete"
-msgstr ""
+msgstr "Daemon::SchedulerCronTaskManager::Task###SurveyRequestsDelete"
 
 #: ../../content/index.rst:132
 msgid "Trigger delete results (including vote data and requests)."
 msgstr ""
+"Törlési eredmények aktiválása (beleértve a szavazati adatokat és kéréseket)."
 
 #: ../../content/index.rst:135
 msgid "Frontend::Agent::ModuleRegistration"
@@ -264,47 +302,55 @@ msgstr "Frontend::Agent::ModuleRegistration"
 
 #: ../../content/index.rst:138
 msgid "Frontend::Module###AgentSurveyAdd"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyAdd"
 
 #: ../../content/index.rst:139
 msgid "Frontend module registration for survey add in the agent interface."
 msgstr ""
+"Előtétprogram modul regisztráció az ügyintézői felületen lévő kérdőív "
+"hozzáadásához."
 
 #: ../../content/index.rst:142
 msgid "Frontend::Module###AgentSurveyEdit"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyEdit"
 
 #: ../../content/index.rst:143
 msgid "Frontend module registration for survey edit in the agent interface."
 msgstr ""
+"Előtétprogram modul regisztráció az ügyintézői felületen lévő kérdőív "
+"szerkesztéséhez."
 
 #: ../../content/index.rst:146
 msgid "Frontend::Module###AgentSurveyOverview"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyOverview"
 
 #: ../../content/index.rst:147
 msgid "All parameters for the Survey object in the agent interface."
-msgstr ""
+msgstr "Az összes paraméter a kérdőív objektumhoz az ügyintézői felületen."
 
 #: ../../content/index.rst:150
 msgid "Frontend::Module###AgentSurveyStats"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyStats"
 
 #: ../../content/index.rst:151
 msgid "Frontend module registration for survey stats in the agent interface."
 msgstr ""
+"Előtétprogram modul regisztráció az ügyintézői felületen lévő kérdőív "
+"statisztikákhoz."
 
 #: ../../content/index.rst:154
 msgid "Frontend::Module###AgentSurveyZoom"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyZoom"
 
 #: ../../content/index.rst:155 ../../content/index.rst:159
 msgid "Frontend module registration for survey zoom in the agent interface."
 msgstr ""
+"Előtétprogram modul regisztráció az ügyintézői felületen lévő kérdőív "
+"nagyításához."
 
 #: ../../content/index.rst:158
 msgid "Frontend::Module###AgentSurveyEditQuestions"
-msgstr ""
+msgstr "Frontend::Module###AgentSurveyEditQuestions"
 
 #: ../../content/index.rst:162
 msgid "Frontend::Agent::ModuleRegistration::Loader"
@@ -312,7 +358,7 @@ msgstr "Frontend::Agent::ModuleRegistration::Loader"
 
 #: ../../content/index.rst:165
 msgid "Loader::Module::AgentSurveyAdd###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyAdd###002-Survey"
 
 #: ../../content/index.rst:166 ../../content/index.rst:170
 #: ../../content/index.rst:174 ../../content/index.rst:178
@@ -323,23 +369,23 @@ msgstr "Betöltőmodul regisztráció az ügyintézői felülethez."
 
 #: ../../content/index.rst:169
 msgid "Loader::Module::AgentSurveyOverview###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyOverview###002-Survey"
 
 #: ../../content/index.rst:173
 msgid "Loader::Module::AgentSurveyEdit###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyEdit###002-Survey"
 
 #: ../../content/index.rst:177
 msgid "Loader::Module::AgentSurveyStats###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyStats###002-Survey"
 
 #: ../../content/index.rst:181
 msgid "Loader::Module::AgentSurveyZoom###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyZoom###002-Survey"
 
 #: ../../content/index.rst:185
 msgid "Loader::Module::AgentSurveyEditQuestions###002-Survey"
-msgstr ""
+msgstr "Loader::Module::AgentSurveyEditQuestions###002-Survey"
 
 #: ../../content/index.rst:189
 msgid "Frontend::Agent::ModuleRegistration::MainMenu"
@@ -347,7 +393,7 @@ msgstr "Frontend::Agent::ModuleRegistration::MainMenu"
 
 #: ../../content/index.rst:192
 msgid "Frontend::Navigation###AgentSurveyAdd###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyAdd###002-Survey"
 
 #: ../../content/index.rst:193 ../../content/index.rst:197
 #: ../../content/index.rst:201 ../../content/index.rst:205
@@ -357,31 +403,33 @@ msgstr "Főmenü elem regisztráció."
 
 #: ../../content/index.rst:196
 msgid "Frontend::Navigation###AgentSurveyOverview###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyOverview###002-Survey"
 
 #: ../../content/index.rst:200
 msgid "Frontend::Navigation###AgentSurveyEdit###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyEdit###002-Survey"
 
 #: ../../content/index.rst:204
 msgid "Frontend::Navigation###AgentSurveyStats###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyStats###002-Survey"
 
 #: ../../content/index.rst:208
 msgid "Frontend::Navigation###AgentSurveyZoom###002-Survey"
-msgstr ""
+msgstr "Frontend::Navigation###AgentSurveyZoom###002-Survey"
 
 #: ../../content/index.rst:212
 msgid "Frontend::Agent::SurveyOverview"
-msgstr ""
+msgstr "Frontend::Agent::SurveyOverview"
 
 #: ../../content/index.rst:215
 msgid "Survey::Frontend::Overview###Small"
-msgstr ""
+msgstr "Survey::Frontend::Overview###Small"
 
 #: ../../content/index.rst:216
 msgid "Defines an overview module to show the small view of a survey list."
 msgstr ""
+"Egy áttekintő modult határoz meg egy kérdőívlista kis nézetének "
+"megjelenítéséhez."
 
 #: ../../content/index.rst:219
 msgid "Frontend::Agent::View::Preferences"
@@ -389,113 +437,134 @@ msgstr "Frontend::Agent::View::Preferences"
 
 #: ../../content/index.rst:222
 msgid "PreferencesGroups###SurveyOverviewSmallPageShown"
-msgstr ""
+msgstr "PreferencesGroups###SurveyOverviewSmallPageShown"
 
 #: ../../content/index.rst:223
 msgid ""
 "Parameters for the pages (in which the surveys are shown) of the small "
 "survey overview."
 msgstr ""
+"Paraméterek a kis kérdőív áttekintő oldalaihoz (amelyekben a kérdőívek "
+"megjelennek)."
 
 #: ../../content/index.rst:226
 msgid "Frontend::Agent::View::SurveyOverview"
-msgstr ""
+msgstr "Frontend::Agent::View::SurveyOverview"
 
 #: ../../content/index.rst:229
 msgid "Survey::Frontend::AgentSurveyOverview###ShowColumns"
-msgstr ""
+msgstr "Survey::Frontend::AgentSurveyOverview###ShowColumns"
 
 #: ../../content/index.rst:230
 msgid ""
 "Defines the shown columns in the survey overview. This option has no "
 "effect on the position of the columns."
 msgstr ""
+"Meghatározza a megjelenített oszlopokat a kérdőív áttekintőben. Ennek a "
+"beállításnak nincs hatása az oszlopok helyzetére."
 
 #: ../../content/index.rst:233
 msgid "Frontend::Agent::View::SurveyStats"
-msgstr ""
+msgstr "Frontend::Agent::View::SurveyStats"
 
 #: ../../content/index.rst:236
 msgid "SurveyStats::ShowDelete"
-msgstr ""
+msgstr "SurveyStats::ShowDelete"
 
 #: ../../content/index.rst:237
 msgid "Defines the groups (rw) which can delete survey stats."
 msgstr ""
+"Meghatározza azokat a csoportokat (írás, olvasás), amelyek törölhetik a "
+"kérdőív statisztikákat."
 
 #: ../../content/index.rst:240
 msgid "Frontend::Agent::View::SurveyZoom"
-msgstr ""
+msgstr "Frontend::Agent::View::SurveyZoom"
 
 #: ../../content/index.rst:243
 msgid "Survey::Frontend::HTMLRichTextHeightDefault"
-msgstr ""
+msgstr "Survey::Frontend::HTMLRichTextHeightDefault"
 
 #: ../../content/index.rst:244
 msgid "Defines the default height for Richtext views for SurveyZoom elements."
 msgstr ""
+"Meghatározza a Rich Text nézetek alapértelmezett magasságát a kérdőív "
+"nagyítás elemeknél."
 
 #: ../../content/index.rst:247
 msgid "Survey::Frontend::HTMLRichTextHeightMax"
-msgstr ""
+msgstr "Survey::Frontend::HTMLRichTextHeightMax"
 
 #: ../../content/index.rst:248
 msgid "Defines the maximum height for Richtext views for SurveyZoom elements."
 msgstr ""
+"Meghatározza a Rich Text nézetek legnagyobb magasságát a kérdőív nagyítás "
+"elemeknél."
 
 #: ../../content/index.rst:251
 msgid "Survey::Frontend::ChangeSurveyStatusGroups"
-msgstr ""
+msgstr "Survey::Frontend::ChangeSurveyStatusGroups"
 
 #: ../../content/index.rst:252
 msgid ""
 "Defines groups which have a permission to change survey status. Array is "
 "empty by default and agents from all groups can change survey status."
 msgstr ""
+"Meghatározza azokat a csoportokat, amelyeknek jogosultsága van a kérdőív "
+"állapotának megváltoztatására. Alapértelmezetten a tömb üres, és az "
+"ügyintézők az összes csoportból megváltoztathatják a kérdőív állapotát."
 
 #: ../../content/index.rst:255
 msgid "Frontend::Agent::View::SurveyZoom::MenuModule"
-msgstr ""
+msgstr "Frontend::Agent::View::SurveyZoom::MenuModule"
 
 #: ../../content/index.rst:258
 msgid "Survey::Frontend::MenuModule###000-Back"
-msgstr ""
+msgstr "Survey::Frontend::MenuModule###000-Back"
 
 #: ../../content/index.rst:259
 msgid ""
 "Shows a link in the menu to go back in the survey zoom view of the agent "
 "interface."
 msgstr ""
+"Egy hivatkozást jelenít meg a menüben az ügyintézői felület kérdőív "
+"nagyítási nézetébe való visszatéréshez."
 
 #: ../../content/index.rst:262
 msgid "Survey::Frontend::MenuModule###010-EditGeneralInfo"
-msgstr ""
+msgstr "Survey::Frontend::MenuModule###010-EditGeneralInfo"
 
 #: ../../content/index.rst:263
 msgid ""
 "Shows a link in the menu to edit a survey in its zoom view of the agent "
 "interface."
 msgstr ""
+"Egy hivatkozást jelenít meg a menüben egy kérdőív szerkesztéséhez az "
+"ügyintézői felületen az elem nagyítási nézetében."
 
 #: ../../content/index.rst:266
 msgid "Survey::Frontend::MenuModule###020-EditQuestions"
-msgstr ""
+msgstr "Survey::Frontend::MenuModule###020-EditQuestions"
 
 #: ../../content/index.rst:267
 msgid ""
 "Shows a link in the menu to edit survey questions in its zoom view of the"
 " agent interface."
 msgstr ""
+"Egy hivatkozást jelenít meg a menüben a kérdőív kérdéseinek szerkesztéséhez "
+"az ügyintézői felületen az elem nagyítási nézetében."
 
 #: ../../content/index.rst:270
 msgid "Survey::Frontend::MenuModule###030-StatsDetails"
-msgstr ""
+msgstr "Survey::Frontend::MenuModule###030-StatsDetails"
 
 #: ../../content/index.rst:271
 msgid ""
 "Shows a link in the menu to zoom into the survey statistics details in "
 "its zoom view of the agent interface."
 msgstr ""
+"Egy hivatkozást jelenít meg a menüben egy kérdőív statisztika részleteibe "
+"való nagyításhoz az ügyintézői felületen az elem nagyítási nézetében."
 
 #: ../../content/index.rst:274
 msgid "Frontend::Public::ModuleRegistration"
@@ -503,17 +572,19 @@ msgstr "Frontend::Public::ModuleRegistration"
 
 #: ../../content/index.rst:277
 msgid "PublicFrontend::Module###PublicSurvey"
-msgstr ""
+msgstr "PublicFrontend::Module###PublicSurvey"
 
 #: ../../content/index.rst:278
 msgid ""
 "Frontend module registration for the PublicSurvey object in the public "
 "Survey area."
 msgstr ""
+"Előtétprogram modul regisztráció a nyilvános kérdőív objektumhoz a nyilvános "
+"kérdőív területen."
 
 #: ../../content/index.rst:281
 msgid "Loader::Module::PublicSurvey###002-Survey"
-msgstr ""
+msgstr "Loader::Module::PublicSurvey###002-Survey"
 
 #: ../../content/index.rst:285
 msgid "About"
@@ -529,11 +600,11 @@ msgstr "Rother OSS GmbH"
 
 #: ../../content/index.rst:290
 msgid "Email: hello@otobo.de"
-msgstr ""
+msgstr "E-mail: hello@otobo.de"
 
 #: ../../content/index.rst:291
 msgid "Web: https://otobo.de"
-msgstr ""
+msgstr "Web: https://otobo.de"
 
 #: ../../content/index.rst:294
 msgid "Version"
