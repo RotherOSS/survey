@@ -25,7 +25,6 @@ sub Data {
 
     # Template: AgentSurveyAdd
     $Self->{Translation}->{'Create New Survey'} = 'Buat survey baru';
-    $Self->{Translation}->{'All fields marked with an asterisk (*) are mandatory.'} = '';
     $Self->{Translation}->{'Introduction'} = 'Pengantar';
     $Self->{Translation}->{'Survey Introduction'} = 'Keta pengantar survey.';
     $Self->{Translation}->{'Notification Body'} = 'Isi notifikasi';
