@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-27 06:27+0000\n"
-"PO-Revision-Date: 2026-11-11 12:00+0000\n"
+"PO-Revision-Date: 2026-11-11 14:00+0000\n"
 "Last-Translator: Jasmin Hammes <jasmin.hammes@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/otobo-11-1/addons/"
 "manuals/survey-documentation/de/>\n"
@@ -406,7 +406,7 @@ msgstr ""
 
 #: ../content/index.rst:210
 msgid "Frontend::Agent::View::Preferences"
-msgstr ""
+msgstr "Frontend::Agent::View::Preferences"
 
 #: ../content/index.rst:213
 msgid "PreferencesGroups###SurveyOverviewSmallPageShown"
