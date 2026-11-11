@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-27 06:27+0000\n"
-"PO-Revision-Date: 2026-11-11 09:00+0000\n"
+"PO-Revision-Date: 2026-11-11 12:00+0000\n"
 "Last-Translator: Jasmin Hammes <jasmin.hammes@rother-oss.com>\n"
 "Language-Team: German <http://translate.otobo.org/projects/otobo-11-1/addons/"
 "manuals/survey-documentation/de/>\n"
@@ -283,7 +283,7 @@ msgstr ""
 
 #: ../content/index.rst:126
 msgid "Frontend::Agent::ModuleRegistration"
-msgstr ""
+msgstr "Frontend::Agent::ModuleRegistration"
 
 #: ../content/index.rst:129
 msgid "Frontend::Module###AgentSurveyAdd"
@@ -331,7 +331,7 @@ msgstr ""
 
 #: ../content/index.rst:153
 msgid "Frontend::Agent::ModuleRegistration::Loader"
-msgstr ""
+msgstr "Frontend::Agent::ModuleRegistration::Loader"
 
 #: ../content/index.rst:156
 msgid "Loader::Module::AgentSurveyAdd###002-Survey"
@@ -341,7 +341,7 @@ msgstr ""
 #: ../content/index.rst:169 ../content/index.rst:173 ../content/index.rst:177
 #: ../content/index.rst:273
 msgid "Loader module registration for the agent interface."
-msgstr ""
+msgstr "Registrierung des Loader-Moduls für die Agentenoberfläche."
 
 #: ../content/index.rst:160
 msgid "Loader::Module::AgentSurveyOverview###002-Survey"
