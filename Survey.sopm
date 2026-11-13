@@ -9,7 +9,7 @@
     <Description Lang="en">A customer survey tool.</Description>
     <Description Lang="de">Ein Kundenumfragen Werkzeug.</Description>
     <Description Lang="es">Una herramienta de encuestas a clientes.</Description>
-    <Description Lang="hu">Egy ügyfélkérdőív eszköz.</Description>
+    <Description Lang="hu">Egy ügyfélkérdőív-eszköz.</Description>
     <Filelist>
         <File Permission="660" Location="doc/survey-database.png" />
         <File Permission="660" Location="Kernel/Config/Files/XML/Survey.xml" />
@@ -300,7 +300,7 @@
         <strong>ÜDVÖZÖLJÜK</strong>
         <br>
         <br>
-        Ön a Survey OTOBO csomag telepítésére készül.<br>
+        Ön a Survey OTOBO-csomag telepítésére készül.<br>
         <br>
         <br>
         ((enjoy))<br>
@@ -352,7 +352,7 @@
         <strong>ÜDVÖZÖLJÜK</strong>
         <br>
         <br>
-        Ön a Survey OTOBO csomag frissítésére készül.<br>
+        Ön a Survey OTOBO-csomag frissítésére készül.<br>
         <br>
         <br>
         ((enjoy))<br>
